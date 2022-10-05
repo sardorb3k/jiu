@@ -48,8 +48,12 @@
                                 <div class="nk-tb-col">
                                     <div class="user-card">
                                         <div class="user-name">
-                                            <a href="{{ route('dashboard.pages.show', $page->slug) }}"><span
-                                                    class="tb-lead">{{ $page->title }}</span></a>
+                                            <a href="{{ route('dashboard.pages.show', $page->slug) }}">
+                                                <span class="tb-lead">
+                                                    {{ App::getLocale() == 'en' ? $page->title_en : '' }}
+                                                    {{ App::getLocale() == 'ru' ? $page->title_ru : '' }}
+                                                    {{ App::getLocale() == 'uz' ? $page->title_uz : '' }}
+                                                </span></a>
                                         </div>
                                     </div>
                                 </div>

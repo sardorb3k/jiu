@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'title' => 'JIU | Japan International University',
     'welcome' => 'Welcome to JIU',
     'description' => 'A world-class education is applicable for building the future',
     'application' => 'Apply Now',
@@ -55,4 +56,8 @@ return [
     'section_info_2_title' => 'SCHOLARSHIPS',
     'section_info_3_title' => 'START-UP FUND IN 5 YEARS',
     'section_info_4_title' => 'ENROLLMENTS PER YEAR',
+
+    // Section application
+    'section_application_title' => 'Are you ready for your next journey with us?',
+    'section_application_button' => 'Application Form',
 ];

@@ -14,15 +14,26 @@
                 <form method="POST" action="{{ route('dashboard.pages.store') }}" class="form-validate"
                     novalidate="novalidate" method="post" enctype="multipart/form-data">
                     @csrf
-                    <span class="preview-title-lg overline-title">Information</span>
+                    <span class="preview-title-lg overline-title">Name</span>
                     <div class="row gy-4">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <div class="form-group">
-                                <label class="form-label" for="page-name">Name</label>
                                 <div class="form-control-wrap">
-                                    <input type="text" class="form-control @error('title') error @enderror"
-                                        id="page-name" name="pagename" placeholder="JIU"
-                                        required>
+                                    <div id="pagename_uz">
+                                        <input type="text" class="form-control @error('title') error @enderror"
+                                            id="page-name" name="pagename_uz" placeholder="JIU" required>
+                                        </textarea>
+                                    </div>
+                                    <div id="pagename_ru" style="display: none;">
+                                        <input type="text" class="form-control @error('title') error @enderror"
+                                            id="page-name" name="pagename_ru" placeholder="JIU" required>
+                                        </textarea>
+                                    </div>
+                                    <div id="pagename_en" style="display: none;">
+                                        <input type="text" class="form-control @error('title') error @enderror"
+                                            id="page-name" name="pagename_en" placeholder="JIU" required>
+                                        </textarea>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -53,16 +64,13 @@
                         </li>
                     </ul>
                     <div id="uz">
-                        <textarea name="content_uz">
-                    </textarea>
+                        <textarea name="content_uz"></textarea>
                     </div>
                     <div id="ru" style="display: none;">
-                        <textarea name="content_ru">
-                    </textarea>
+                        <textarea name="content_ru"></textarea>
                     </div>
                     <div id="en" style="display: none;">
-                        <textarea name="content_en">
-                    </textarea>
+                        <textarea name="content_en"></textarea>
                     </div>
                     <hr class="preview-hr">
                     <div class="card-inner border-top">
@@ -76,21 +84,36 @@
         </div>
     </div>
     <script>
-        $('input[type="radio"]').on('click change', function(e) {
+        $('#content input[type="radio"]').on('click change', function(e) {
             var id = $(this).attr('id');
             var value = $(this).val();
             if (value == 'uz') {
+                // Content
                 $('#uz').show();
                 $('#ru').hide();
                 $('#en').hide();
+                // Name
+                $('#pagename_uz').show();
+                $('#pagename_ru').hide();
+                $('#pagename_en').hide();
             } else if (value == 'ru') {
+                // Content
                 $('#uz').hide();
                 $('#ru').show();
                 $('#en').hide();
+                // Name
+                $('#pagename_uz').hide();
+                $('#pagename_ru').show();
+                $('#pagename_en').hide();
             } else if (value == 'en') {
+                // Content
                 $('#uz').hide();
                 $('#ru').hide();
                 $('#en').show();
+                // Name
+                $('#pagename_uz').hide();
+                $('#pagename_ru').hide();
+                $('#pagename_en').show();
             }
         });
     </script>

@@ -25,8 +25,16 @@ class PageRepository implements PageRepositoryInterface
 
     public function index($slug)
     {
-        // Get first page
-        $page = $this->pages->where('slug', $slug)->first();
-        return view('page', compact('page'));
+        try {
+            // Get first page
+            $page = $this->pages->where('slug', $slug)->first();
+            if ($page) {
+                return view('page', compact('page'));
+            } else {
+                return abort(404);
+            }
+        } catch (\Exception $e) {
+            return abort(404);
+        }
     }
 }

@@ -5,17 +5,19 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 // Models
 use App\Models\System;
+use App\Interfaces\HomeRepositoryInterface;
 
 class HomeController extends Controller
 {
+    private $homeRepository;
     /**
      * Create a new controller instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct(HomeRepositoryInterface $homeRepository)
     {
-        // $this->middleware('auth');
+        $this->homeRepository = $homeRepository;
     }
 
     /**
@@ -25,7 +27,18 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $system = System::first();
-        return view('home', compact('system'));
+        return $this->homeRepository->index();
+    }
+    public function contact()
+    {
+        return $this->homeRepository->contact();
+    }
+    public function contact_store(Request $request)
+    {
+        return $this->homeRepository->contact_store($request);
+    }
+    public function jobs()
+    {
+        return $this->homeRepository->jobs();
     }
 }

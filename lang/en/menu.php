@@ -22,6 +22,7 @@ return [
     'about_license' => 'LICENSE ',
     'about_executive' => 'Executive council',
     'about_academic' => 'ACADEMIC COUNCIL',
+    'jobs_vacancies' => 'Job vacancies',
     'contact' => 'Contact Us',
     'induction' => 'Induction ❗️',
 ];

@@ -5,8 +5,8 @@
 
             <ul>
                 <li>
-                    <a href="{{ url('/') }}">
-                        Home
+                    <a href="{{ route('home') }}">
+                        {{ __('breadcrumb.home') }}
                     </a>
                 </li>
 

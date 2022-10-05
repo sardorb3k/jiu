@@ -44,13 +44,13 @@
 
                       <ul class="import-link">
                           <li>
-                              <a href="{{ url('/application') }}">How to apply</a>
+                              <a href="{{ url('/application') }}">{{ __('menu.admission_apply') }}</a>
                           </li>
                           <li>
-                              <a href="{{ url('/contact') }}">Contact us</a>
+                              <a href="{{ route('contact') }}">{{ __('menu.contact') }}</a>
                           </li>
                           <li>
-                              <a href="{{ url('/license') }}">License</a>
+                              <a href="{{ url('/license') }}">{{ __('menu.about_license') }}</a>
                           </li>
                       </ul>
                   </div>
@@ -62,10 +62,10 @@
 
                       <ul class="import-link">
                           <li>
-                              <a href="{{ url('/admissions') }}">Admissions</a>
+                              <a href="{{ url('/admissions') }}">{{ __('menu.examination') }}</a>
                           </li>
                           <li>
-                              <a href="{{ url('/scholarships') }}">Scholarships</a>
+                              <a href="{{ url('/scholarships') }}">{{ __('menu.admission_scholarship') }}</a>
                           </li>
                       </ul>
                   </div>

@@ -16,9 +16,13 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 // Home Page
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/example', [App\Http\Controllers\PageController::class, 'example'])->name('example');
+Route::get('/contact', [App\Http\Controllers\HomeController::class, 'contact'])->name('contact');
+Route::post('/contact', [App\Http\Controllers\HomeController::class, 'contact_store'])->name('contact_store');
+Route::get('/jobs', [App\Http\Controllers\HomeController::class, 'jobs'])->name('jobs');
 
 // Dashboard Routes
-Route::group(['as'=>'dashboard.'  ,'prefix'=>'dashboard'], function () {
+Route::group(['as' => 'dashboard.', 'prefix' => 'dashboard'], function () {
     Route::get('/', 'App\Http\Controllers\DashboardController@index')->name('index')->middleware('auth');
 
     // Pages Routes

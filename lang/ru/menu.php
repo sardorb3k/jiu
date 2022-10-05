@@ -22,6 +22,7 @@ return [
     'about_license' => 'ЛИЦЕНЗИЯ',
     'about_executive' => 'Исполнительный совет',
     'about_academic' => 'УЧЕНЫЙ СОВЕТ',
+    'jobs_vacancies' => 'Вакансии',
     'contact' => 'Контакты',
     'induction' => 'Induction ❗️',
 ];

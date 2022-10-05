@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
-@section('title', 'Page - ' . $page->title)
+@section('title', 'Page - ' . $page->title_en)
 @section('content')
     <div class="nk-block-head nk-block-head-sm">
         <div class="nk-block-between">
@@ -17,21 +17,38 @@
                     novalidate="novalidate" method="post" enctype="multipart/form-data">
                     @csrf
                     @method('PUT')
-                    <span class="preview-title-lg overline-title">Information</span>
+                    <span class="preview-title-lg overline-title">Name</span>
                     <div class="row gy-4">
-                        <div class="col-sm-6">
+                        <div class="col-sm-12">
                             <div class="form-group">
-                                <label class="form-label" for="page-name">Name</label>
                                 <div class="form-control-wrap">
-                                    <input type="text" class="form-control @error('title') error @enderror"
-                                        id="page-name" name="pagename" placeholder="JIU" value="{{ $page->title }}"
-                                        required>
+                                    <div id="pagename_uz">
+                                        <input type="text" class="form-control @error('title') error @enderror"
+                                            id="page-name" name="pagename_uz" placeholder="JIU"
+                                            value="{{ $page->title_uz }}" required>
+                                        </textarea>
+                                    </div>
+                                    <div id="pagename_ru" style="display: none;">
+                                        <input type="text" class="form-control @error('title') error @enderror"
+                                            id="page-name" name="pagename_ru" placeholder="JIU"
+                                            value="{{ $page->title_ru }}" required>
+                                        </textarea>
+                                    </div>
+                                    <div id="pagename_en" style="display: none;">
+                                        <input type="text" class="form-control @error('title') error @enderror"
+                                            id="page-name" name="pagename_en" placeholder="JIU"
+                                            value="{{ $page->title_en }}" required>
+                                        </textarea>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <hr class="preview-hr">
+                    <span class="preview-title-lg overline-title">Status</span>
+                    <div class="row gy-4">
                         <div class="col-md-6">
                             <div class="form-group">
-                                <label class="form-label" for="fv-status">Status</label>
                                 <div class="form-control-wrap @error('status') error @enderror">
                                     <ul class="custom-control-group">
                                         <li>
@@ -111,17 +128,32 @@
             var id = $(this).attr('id');
             var value = $(this).val();
             if (value == 'uz') {
+                // Content
                 $('#uz').show();
                 $('#ru').hide();
                 $('#en').hide();
+                // Name
+                $('#pagename_uz').show();
+                $('#pagename_ru').hide();
+                $('#pagename_en').hide();
             } else if (value == 'ru') {
+                // Content
                 $('#uz').hide();
                 $('#ru').show();
                 $('#en').hide();
+                // Name
+                $('#pagename_uz').hide();
+                $('#pagename_ru').show();
+                $('#pagename_en').hide();
             } else if (value == 'en') {
+                // Content
                 $('#uz').hide();
                 $('#ru').hide();
                 $('#en').show();
+                // Name
+                $('#pagename_uz').hide();
+                $('#pagename_ru').hide();
+                $('#pagename_en').show();
             }
         });
     </script>

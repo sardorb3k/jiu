@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'title' => 'JIU | Japan International University',
     'welcome' => 'JIUga xush kelibsiz',
     'description' => 'Kelajakni qurish uchun jahon darajasidagi ta\'lim qo\'llaniladi',
     'application' => 'Hozir murojaat qiling',
@@ -55,4 +56,8 @@ return [
     'section_info_2_title' => 'GRANT',
     'section_info_3_title' => 'STARTAP JAMGʻARMASI 5 YILDA',
     'section_info_4_title' => 'RO\'YXATDAN O\'TISH YILIGA',
+
+    // Section application
+    'section_application_title' => 'Biz bilan keyingi sayohatingizga tayyormisiz?',
+    'section_application_button' => 'Ariza formasi',
 ];

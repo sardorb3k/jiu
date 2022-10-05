@@ -44,6 +44,11 @@ class AppServiceProvider extends ServiceProvider
             'App\Interfaces\PageRepositoryInterface',
             'App\Repository\PageRepository'
         );
+        // Home
+        $this->app->bind(
+            'App\Interfaces\HomeRepositoryInterface',
+            'App\Repository\HomeRepository'
+        );
     }
 
     /**

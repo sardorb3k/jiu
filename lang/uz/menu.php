@@ -22,6 +22,7 @@ return [
     'about_license' => 'LITSENZIYA ',
     'about_executive' => 'Ijroiya kengashi',
     'about_academic' => 'Ilmiy Kengash',
+    'jobs_vacancies' => 'Bo\'sh ish o\'rinlari',
     'contact' => 'Biz bilan bog\'lanish',
     'induction' => 'Induction ❗️',
 ];

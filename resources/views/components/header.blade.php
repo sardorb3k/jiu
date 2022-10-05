@@ -56,7 +56,7 @@
             <div class="container">
                 <div class="mobile-responsive-menu">
                     <div class="logo">
-                        <a href="{{ url('/') }}">
+                        <a href="{{ route('home') }}">
                             <img src="{{ asset('uploads/' . $system->site_logo) }}" alt="{{ $system->site_name }}">
                         </a>
                     </div>
@@ -64,9 +64,17 @@
                     <div class="others-options-for-mobile-devices">
                         <ul>
                             <li>
-                                <a href="{{ url('/application') }}" class="default-btn">
-                                    {{ __('site.application') }}
-                                </a>
+                                @guest
+                                    @if (Route::has('login'))
+                                        <a href="{{ url('/register') }}" class="default-btn">
+                                            {{ __('site.application') }}
+                                        </a>
+                                    @endif
+                                @else
+                                    <a href="{{ route('dashboard.index') }}" class="default-btn">
+                                        {{ __('site.application') }}
+                                    </a>
+                                @endguest
                             </li>
                         </ul>
                     </div>
@@ -77,7 +85,7 @@
         <div class="desktop-nav">
             <div class="container">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <a class="navbar-brand" href="{{ url('/') }}">
+                    <a class="navbar-brand" href="{{ route('home') }}">
                         <img src="{{ asset('uploads/' . $system->site_logo) }}" alt="{{ $system->site_name }}"
                             width="130">
                     </a>
@@ -85,7 +93,7 @@
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                         <ul class="navbar-nav m-auto">
                             <li class="nav-item">
-                                <a href="{{ url('/') }}" class="nav-link">{{ __('menu.home') }}</a>
+                                <a href="{{ route('home') }}" class="nav-link">{{ __('menu.home') }}</a>
                             </li>
 
                             <li class="nav-item">
@@ -130,27 +138,27 @@
 
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/examination-payment') }}"
+                                        <a href="{{ url('/page/admission') }}"
                                             class="nav-link">{{ __('menu.admission_apply') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/examination-payment') }}"
+                                        <a href="{{ url('/page/foundation-programme') }}"
                                             class="nav-link">{{ __('menu.admission_foundation') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/admission-foundation-business') }}"
+                                        <a href="{{ url('/page/foundationin-business') }}"
                                             class="nav-link">{{ __('menu.admission_foundation_business') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/admission-jiu-academy') }}"
+                                        <a href="{{ url('/page/foundationin-business') }}"
                                             class="nav-link">{{ __('menu.admission_idu_academy') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/admission-scholarship') }}"
+                                        <a href="{{ url('/page/scholarship') }}"
                                             class="nav-link">{{ __('menu.admission_scholarship') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/admission-english-lang') }}"
+                                        <a href="{{ url('/page/english-language-certificates-equivalents') }}"
                                             class="nav-link">{{ __('menu.admission_english_lang_cert') }}</a>
                                     </li>
                                 </ul>
@@ -164,37 +172,48 @@
 
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="{{ url('/#about') }}" class="nav-link">{{ __('menu.about_why') }}</a>
+                                        <a href="{{ url('/#about') }}"
+                                            class="nav-link">{{ __('menu.about_why') }}</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="{{ url('/#ourmission') }}"
                                             class="nav-link">{{ __('menu.about_license') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/about-executive') }}"
+                                        <a href="{{ url('/page/executive-council') }}"
                                             class="nav-link">{{ __('menu.about_executive') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/about-academic') }}"
+                                        <a href="{{ url('/page/academic-council') }}"
                                             class="nav-link">{{ __('menu.about_academic') }}</a>
                                     </li>
                                 </ul>
                             </li>
-
                             <li class="nav-item">
-                                <a href="{{ url('/contact') }}" class="nav-link">{{ __('menu.contact') }}</a>
+                                <a href="{{ route('jobs') }}" class="nav-link">{{ __('menu.jobs_vacancies') }}</a>
                             </li>
                             <li class="nav-item">
+                                <a href="{{ route('contact') }}" class="nav-link">{{ __('menu.contact') }}</a>
+                            </li>
+                            {{-- <li class="nav-item">
                                 <a href="{{ url('/induction') }}" class="nav-link">{{ __('menu.induction') }}</a>
-                            </li>
+                            </li> --}}
                         </ul>
 
                         <div class="others-options">
                             <ul>
                                 <li>
-                                    <a href="{{ url('/application') }}" class="default-btn">
-                                        {{ __('site.application') }}
-                                    </a>
+                                    @guest
+                                        @if (Route::has('login'))
+                                            <a href="{{ url('/register') }}" class="default-btn">
+                                                {{ __('site.application') }}
+                                            </a>
+                                        @endif
+                                    @else
+                                        <a href="{{ route('dashboard.index') }}" class="default-btn">
+                                            {{ __('site.application') }}
+                                        </a>
+                                    @endguest
                                 </li>
                             </ul>
                         </div>

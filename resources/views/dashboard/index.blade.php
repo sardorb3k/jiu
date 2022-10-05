@@ -1,5 +1,5 @@
 @extends('layouts.dashboard')
-
+@section('title', __('dashboard.title'))
 @section('content')
     <div class="nk-block-head nk-block-head-sm">
         <div class="nk-block-between">

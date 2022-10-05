@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+@section('title', __('home.title'))
 @section('content')
     <!-- Start Banner Area -->
     <section class="banner-area bg-1 jarallax" data-jarallax='{"speed": 0.3}'>
@@ -142,11 +142,11 @@
                 <div class="study-slider owl-carousel owl-theme">
                     <div class="single-study">
                         <i class="flaticon-finance"></i>
-                        <h3>
+                        <h4>
                             <a href="#">{{ __('home.section_vision_1_title') }}</a>
-                        </h3>
+                        </h4>
                         <p>{{ __('home.section_vision_1_title') }}</p>
-
+                        <br>
                         <a href="{{ url('/contact') }}" class="read-more">
                             {{ __('home.section_vision_contact') }}
                             <span class="ri-arrow-right-line"></span>
@@ -155,11 +155,11 @@
 
                     <div class="single-study">
                         <i class="flaticon-data-scientist"></i>
-                        <h3>
+                        <h4>
                             <a href="#">{{ __('home.section_vision_2_title') }}</a>
-                        </h3>
+                        </h4>
                         <p>{{ __('home.section_vision_2_title') }}</p>
-
+                        <br>
                         <a href="{{ url('/contact') }}" class="read-more">
                             {{ __('home.section_vision_contact') }}
                             <span class="ri-arrow-right-line"></span>
@@ -168,11 +168,11 @@
 
                     <div class="single-study">
                         <i class="flaticon-compliant"></i>
-                        <h3>
+                        <h4>
                             <a href="#">{{ __('home.section_vision_3_title') }}</a>
-                        </h3>
+                        </h4>
                         <p>{{ __('home.section_vision_3_title') }}</p>
-
+                        <br>
                         <a href="{{ url('/contact') }}" class="read-more">
                             {{ __('home.section_vision_contact') }}
                             <span class="ri-arrow-right-line"></span>
@@ -181,9 +181,9 @@
 
                     <div class="single-study">
                         <i class="flaticon-health"></i>
-                        <h3>
+                        <h4>
                             <a href="#">{{ __('home.section_vision_4_title') }}</a>
-                        </h3>
+                        </h4>
                         <p>{{ __('home.section_vision_4_title') }}</p>
 
                         <a href="{{ url('/contact') }}" class="read-more">
@@ -194,9 +194,9 @@
 
                     <div class="single-study">
                         <i class="flaticon-data-scientist"></i>
-                        <h3>
+                        <h4>
                             <a href="#">{{ __('home.section_vision_5_title') }}</a>
-                        </h3>
+                        </h4>
                         <p>{{ __('home.section_vision_5_title') }}</p>
 
                         <a href="{{ url('/contact') }}" class="read-more">
@@ -207,11 +207,10 @@
 
                     <div class="single-study">
                         <i class="flaticon-data-scientist"></i>
-                        <h3>
+                        <h4>
                             <a href="#">{{ __('home.section_vision_6_title') }}</a>
-                        </h3>
+                        </h4>
                         <p>{{ __('home.section_vision_6_title') }}</p>
-
                         <a href="{{ url('/contact') }}" class="read-more">
                             {{ __('home.section_vision_contact') }}
                             <span class="ri-arrow-right-line"></span>
@@ -323,9 +322,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="application-submit-content">
-                            <h2>Are you ready for your next journey with us?</h2>
-                            <a href="application.html" class="default-btn">
-                                Application form
+                            <h2>{{ __('home.section_application_title') }}</h2>
+                            <a href="{{ route('login') }}" class="default-btn">
+                                {{ __('home.section_application_button') }}
                                 <i class="ri-arrow-right-line"></i>
                             </a>
                         </div>
@@ -333,7 +332,7 @@
 
                     <div class="col-lg-6">
                         <div class="application-submit-img">
-                            <img src="assets/images/application-submit-img.png" alt="Image">
+                            <img src="{{ asset('assets/images/application-submit-img.png') }}" alt="Image">
                         </div>
                     </div>
                 </div>

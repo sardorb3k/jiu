@@ -16,4 +16,8 @@ class PageController extends Controller
     {
         return $this->pageRepository->index($slug);
     }
+    public function example()
+    {
+        return view('example');
+    }
 }

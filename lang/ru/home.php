@@ -1,6 +1,7 @@
 <?php
 
 return [
+    'title' => 'JIU | Japan International University',
     'welcome' => 'Добро пожаловать в JIU',
     'description' => 'Образование мирового уровня применимо для построения будущего',
     'application' => 'Применить сейчас',
@@ -55,4 +56,8 @@ return [
     'section_info_2_title' => 'ГРАНТ',
     'section_info_3_title' => 'ФОНД ПОДДЕРЖКИ СТАРТАПОВ ЧЕРЕЗ 5 ЛЕТ',
     'section_info_4_title' => 'НОВЫХ СТУДЕНТОВ В ГОД',
+
+    // Section application
+    'section_application_title' => 'Вы готовы к следующему путешествию с нами?',
+    'section_application_button' => 'Форма заявки',
 ];

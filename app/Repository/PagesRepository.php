@@ -38,18 +38,22 @@ class PagesRepository implements PagesRepositoryInterface
     {
         try {
             $request->validate([
-                'pagename' => 'required',
+                'pagename_uz' => 'required',
+                'pagename_en' => 'required',
+                'pagename_ru' => 'required',
                 'content_uz' => 'nullable',
                 'content_ru' => 'nullable',
                 'content_en' => 'nullable',
             ]);
             $this->pages->create([
-                'title' => $request->pagename,
-                'slug' => Str::slug($request->pagename, '-'),
+                'title_en' => $request->pagename_en,
+                'title_uz' => $request->pagename_uz,
+                'title_ru' => $request->pagename_ru,
+                'slug' => Str::slug($request->pagename_en, '-'),
                 'status' => 'active',
-                'content_en' => htmlspecialchars($request->content_en),
-                'content_ru' => htmlspecialchars($request->content_ru),
-                'content_uz' => htmlspecialchars($request->content_uz),
+                'content_uz' => htmlspecialchars(trim(str_replace("&nbsp;", '', preg_replace('/\s\s+/', '', $request->content_uz))), ENT_QUOTES),
+                'content_ru' => htmlspecialchars(trim(str_replace("&nbsp;", '', preg_replace('/\s\s+/', '', $request->content_ru))), ENT_QUOTES),
+                'content_en' => htmlspecialchars(trim(str_replace("&nbsp;", '', preg_replace('/\s\s+/', '', $request->content_en))), ENT_QUOTES),
             ]);
             return redirect()->route('dashboard.pages.index')->with('success', 'Page created successfully');
         } catch (\Exception $e) {
@@ -67,7 +71,9 @@ class PagesRepository implements PagesRepositoryInterface
     {
         try {
             $request->validate([
-                'pagename' => 'required',
+                'pagename_uz' => 'required',
+                'pagename_en' => 'required',
+                'pagename_ru' => 'required',
                 'pagestatus' => 'required',
                 'content_uz' => 'nullable',
                 'content_ru' => 'nullable',
@@ -75,12 +81,15 @@ class PagesRepository implements PagesRepositoryInterface
             ]);
             $page = $this->pages->find($id);
             $page->update([
-                'title' => $request->pagename,
+                'title_en' => $request->pagename_en,
+                'title_uz' => $request->pagename_uz,
+                'title_ru' => $request->pagename_ru,
                 'status' => $request->pagestatus,
-                'content_uz' => htmlspecialchars($request->content_uz, ENT_QUOTES),
-                'content_ru' => htmlspecialchars($request->content_ru, ENT_QUOTES),
-                'content_en' => htmlspecialchars($request->content_en, ENT_QUOTES),
+                'content_uz' => htmlspecialchars(trim(str_replace("&nbsp;", '', preg_replace('/\s\s+/', '', $request->content_uz))), ENT_QUOTES),
+                'content_ru' => htmlspecialchars(trim(str_replace("&nbsp;", '', preg_replace('/\s\s+/', '', $request->content_ru))), ENT_QUOTES),
+                'content_en' => htmlspecialchars(trim(str_replace("&nbsp;", '', preg_replace('/\s\s+/', '', $request->content_en))), ENT_QUOTES),
             ]);
+
 
             return redirect()->route('dashboard.pages.index')->with('success', 'Page updated successfully.');
         } catch (\Exception $e) {

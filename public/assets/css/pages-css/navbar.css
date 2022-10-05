@@ -21,8 +21,8 @@ Navbar Area Style
   background-color: var(--white-color) !important;
   -webkit-box-shadow: var(--box-shadow);
           box-shadow: var(--box-shadow);
-  -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-          animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  -webkit-animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
+          animation: 1000ms ease-in-out 0s normal none 1 running fadeInDown;
 }
 
 .navbar-area.navbar-area-bg .navbar-brand {
