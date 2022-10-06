@@ -4,6 +4,210 @@
     <x-breadcrumb title="Examplate" />
 
 
+
+
+
+
+    {{-- aa --}}
+    <section class="studys-area study-area-style-two ptb-100">
+        <div class="container">
+            <div class="section-title">
+                <h2>Qanday hujjat topshiriladi</h2>
+            </div>
+            <div class="our-campus-bg our-campus-bg-style">
+                <div class="row align-items-center">
+                    <div class="col-lg-5">
+                        <div class="campus-content mr-15">
+                            <h2>Oʻzingizga mos kursni tanlang</h2>
+                            <p>Universitetda siz uchun bir necha kurslar mavjud. Foundation Course davrida siz qaysi fanni
+                                oʻqishni istayotganingizni aniqlab olishingiz kerak. Shundan keyin siz oʻzingizga qiziqarli
+                                kursni tanlasangiz boʻladi.</p>
+                            <ul>
+                                <li><a href="/page/foundation-programme">"IT-FOUNDATION" DASTURI</a></li>
+                                <li><a href="/page/foundationin-business">JIU AKADEMIYA</a></li>
+                            </ul>
+                            <p>Ma'lum bir taʼlim kursini tanlashdan avval, toʻgʻri yo'nalishni tanlash siz uchun muhim
+                                ahamiyatga ega boʻlishini taʼkidlash lozim. Tanlovingizni amalga oshirish uchun quyidagi
+                                koʻrsatkichlardan foydalaning.</p>
+                            <ul>
+                                <li>Kursning tarkibi sizga yoqdimi?</li>
+                                <li>Hozirda siz uchun qanday ish takliflari mavjud?</li>
+                                <li>Ariza topshirish jarayoni davomida biror imtihonni topshirishga toʻgʻri keladimi?</li>
+                            </ul>
+                            <p>Boshqalardan yordam soʻrash haqida oʻylab koʻring. Tanlovingiz borasida doʻstlaringiz va
+                                oilangiz bilan gaplashib koʻring yoki oʻqituvchingizga yoki karyera maslaxatchisiga yordam
+                                soʻrab murojaat qiling.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="campus-img-2 ml-15"><img class="campus-image" src="../../assets/images/campus-img-2.jpg"
+                                alt="Image"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="studys-area study-area-style-two">
+        <div class="container">
+            <div class="our-campus-bg our-campus-bg-style">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="campus-content mr-15" style="padding-top: 20px;">
+                            <h2>Kirish talablari bilan tanishib chiqing</h2>
+                            <p>JIUda mavjud bo'lgan har bir kursda aniq qabul talablari o'rnatilgan. Belgilangan kurs
+                                sahifalarida kursga maxsus talablarni tekshirishingiz mumkin:</p>
+                            <ul>
+                                <li><a href="/page/foundation-programme">"IT-FOUNDATION" DASTURI</a></li>
+                                <li><a href="/page/foundationin-business">JIU AKADEMIYA</a></li>
+                            </ul>
+                            <p>Universitet muvaffaqiyatga erishish imkoniyatiga ega deb hisoblagan abituriyentlarni qabul
+                                qilishga intiladi. Talabaning tanlagan dasturida muvaffaqiyatga erishish qobiliyati, rasmiy
+                                malakalar bilan bir qatorda, tinglov/suhbatda yoki shaxsiy bayonot orqali ariza berish
+                                orqali baholanadi. Har bir ariza o'z mohiyatiga ko'ra alohida baholanadi.</p>
+                            <p>Qabul komissiyasi tomonidan qabul qilingan har qanday akademik qaror abituriyent tomonidan
+                                ushbu talablarga javob berish haqidagi bayonotini tasdiqlovchi dalillar asosida qabul
+                                qilinadi..</p>
+                            <p>Akademik talablarni minimallashtirsih maqsadi JIUga qoʻshilgan talabalar JIU dasturini
+                                yakunlash va undan foyda olish uchun yetarli akademik qobiliyatni namoyish qilishlarini
+                                taʼminlashdan iborat.</p>
+                            <p>JIU abituriyentlarga taqdim etilgan maʼlumotlarning toʻgʻri boʻlishini taʼminlash
+                                majburiyatini oladi.</p>
+                            <p>Ariza topshirish vaqtida aniq ma'lumotlarni taqdim etish va qabul qaroriga ta'sir qilishi
+                                mumkin bo'lgan har qanday narsani oshkor qilish barcha abituriyentlarning javobgarligidir.
+                                Qaror qabul qilish jarayonida ta'sir qilishi mumkin bo'lgan ma'lumotlarni oshkor qilmaslik
+                                taklifni qaytarib olishga olib kelishi mumkin.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="studys-area study-area-style-two ptb-100">
+        <div class="container">
+            <div class="our-campus-bg our-campus-bg-style">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="campus-content mr-15" style="padding-top: 20px;">
+                            <h2>Ariza topshiring</h2>
+                            <p>To'g'ridan-to'g'ri veb-saytimizdan tuhsgan arizalar "Foundation" va JIU Akademiyasi
+                                dasturlaridan iborat. Quyidagi havolalarni bosish orqali siz avtomatik ravishda onlayn ariza
+                                shakliga yo'naltirilasiz. Ariza topshirishdan oldin sizda barcha kerakli hujjatlar
+                                mavjudligiga ishonch hosil qiling:</p>
+                            <ul>
+                                <li><a href="/page/foundation-programme">"IT-FOUNDATION" DASTURI</a></li>
+                                <li><a href="/page/foundationin-business">JIU AKADEMIYA</a></li>
+                            </ul>
+                            <p>JIUda 2022/2023 yillarda quyidagi kurslarni boshlashni rejalashtirmoqda:</p>
+                            <ul>
+                                <li>MA’LUMOTLAR ILMINI Oʻrganasiz</li>
+                                <li>Sun'iy Intellekt</li>
+                                <li>Oʻyin Yaratish</li>
+                                <li>Kiberxavfsizlik</li>
+                                <li>Raqamli Biznes</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="studys-area study-area-style-two">
+        <div class="container">
+            <div class="our-campus-bg our-campus-bg-style">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="campus-content mr-15" style="padding-top: 20px;">
+                            <h2>Qabul qilinganingizdan soʻng</h2>
+                            <p>Siz dasturga qabul qilinganingizni, suhbatga taklif qilinganingizni yoki arizangiz holati
+                                (statusini bilmoqchi bo'lsangiz XDU akkauntidan foydalanib tizimga kiring.</p>
+                            <p>Arizangizni ko'rib chiqish bo'yicha yangilanishlarni bilish uchun siz bizning "call" markazi
+                                xizmatlaridan ham foydalanishingiz mumkin. E'tibor bering, arizangiz bilan bog'liq barcha
+                                natijalar sizning shaxsiy ma'lumotlaringiz sifatida ko'rib chiqiladi. Shunday qilib, ular
+                                haqida faqat sizning shaxsiy JIU hisobingiz orqali o'zingiz xabardor bo'lasiz va qo'shimcha
+                                ravishda ro'yxatdan o'tish paytida ko'rsatilgan elektron pochtangizga tegishli ma'lumotlar
+                                yuboriladi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="studys-area study-area-style-two ptb-100">
+        <div class="container">
+            <div class="our-campus-bg our-campus-bg-style">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="campus-content mr-15" style="padding-top: 20px;">
+                            <h2>Kirish imtihonlarini topshiring</h2>
+                            <p>Universitet muvaffaqiyatga erishish imkoniyatiga ega deb hisoblagan abituriyentlarni qabul
+                                qilishga intiladi. JIU dasturlarining tabiatidan kelib chiqib, siz JIU ichki imtihonlari
+                                yoki ekvivalentlari orqali ko'rsatilgan ingliz tili va matematika fanlarini yetarli darajada
+                                o'zlashtirishingiz muhim ahamiyatga ega. Universitet muvaffaqiyatga erishish imkoniyatiga
+                                ega deb hisoblagan abituriyentlarni qabul qilishga intiladi. JIU dasturlarining tabiatidan
+                                kelib chiqib, siz JIU ichki imtihonlari yoki ekvivalentlari orqali ko'rsatilgan ingliz tili
+                                va matematika fanlarini yetarli darajada o'zlashtirishingiz muhim.
+                            </p>
+                            <p>Siz ikkita fandan imtihon topshirasiz: ingliz tili va matematika</p>
+                            <p>Kirish imtihonini topshirish uchun siz avval quyidagi havola orqali royxatdan oʻtishingiz
+                                kerak: https://www.JIU.uz/register or use our cal centre services</p>
+                            <p>Imtihonlarga tayyorgarlik ko'rish uchun siz ushbu veb-saytdagi ma'lumotlardan
+                                foydalanishingiz mumkin:</p>
+                            <ul>
+                                <li><a href="/page/english-exam">Ingliz tili imtihonlari haqida ma'lumot</a></li>
+                                <li><a href="/page/maths-exam">Matematika imtihonlari haqida ma'lumot</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="studys-area study-area-style-two">
+        <div class="container">
+            <div class="our-campus-bg our-campus-bg-style">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="campus-content mr-15" style="padding-top: 20px;">
+                            <h2>Arizangiz boʻyicha biz qabul qiladigan qarorlar</h2>
+                            <p>Barcha arizalar bo'yicha qarorlar qabul komissiyasi tomonidan qabul qilinadi</p>
+                            <p>Arizangizni ko'rib chiqishda bizga yordam berish uchun qo'shimcha ma'lumot so'rashimiz mumkin. Bu ishonchnomalar/sertifikatlarning tasdiqlangan nusxalarini o'z ichiga olishi mumkin. Bunday holda, biz siz bilan bog'lanib, qo'shimcha ma'lumotlarni olish uchun murojaat qilamiz.</p>
+                            <p>Qabul komissiyasi barcha to'liq arizalarni ko'rib chiqadi va har bir ariza bo'yicha quyidagi qarorlardan birini chiqaradi:</p>
+                            <ol type="a">
+                                <li>"Shartsiz taklif" agar qabulning barcha talablari talabgor tomonidan bajarilgan bo'lsa, qaror qabul qilinadi.</li>
+                                <li>"Shartli taklif" agar qabul qilish talablarining ko'p qismi talabgor tomonidan bajarilgan bo'lsa va to'liq bo'lmagan talablar belgilangan muddatgacha bajarilsa, qaror qabul qilinadi. Bunday holda, talabnoma beruvchiga universitetga kirish sharti sifatida belgilangan muddat va hujjatlar ro'yxati taqdim etiladi.</li>
+                                <li>"Qabul qilish rad etilgan" - bu talab qilingan hujjatlarni topshirish muddatlari o'tgandan keyin yoki abituriyent noto'g'ri ma'lumot bergan bo'lsa yoki qabul komissiyasi abituriyentning dasturda muvaffaqiyatga erishish imkoniyati kam deb hisoblasa yoki oldingi ma'lumotlarga asoslanib qabul qilingan qarordir, ariza yozuvlari yoki qonunlar yoki ichki qoidalar bilan belgilangan boshqa talablar.</li>
+                                <li>"Qo'shimcha ma'lumot so'rash" Kengash qaror qabul qilish uchun qo'shimcha dalillar zarur deb hisoblagan hollarda qabul qilinadi. Ariza beruvchi talablarga javob berganidan va so‘ralgan qo‘shimcha dalillar taqdim etilganidan keyin Kengash tomonidan qayta ko‘rib chiqiladi.
+                                </li>
+                            </ol>
+                            <p>Qabul komissiyasi abituriyentlar taqdim etgan dalillar asosida qaror qabul qiladi.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="studys-area study-area-style-two ptb-100">
+        <div class="container">
+            <div class="our-campus-bg our-campus-bg-style">
+                <div class="row align-items-center">
+                    <div class="col-lg-12">
+                        <div class="campus-content mr-15" style="padding-top: 20px;">
+                            <h2>Keyingi qadamlar</h2>
+                            <ol type="a">
+                                <li>Qabul boʻlimimiz arizangizni topshirishingiz bilan uni qabul qilib oladi.</li>
+                                <li>Biz qarorni arizangizga asoslanib qabul qilamiz va natijasini email manzilingiz orqali sizga xabar beramiz.</li>
+                                <li>Ehtiyot chorasi sifatida arizangizga tegishli muhim axborotni oʻtkazib yubormaslik uchun elektron pochtangizni muntazam tekshirib turing.</li>
+                                <li>Agar tanlagan kursingizning kirish talablariga javob bermasangiz, sizga muqobil kurs taklif qilinishi mumkin.</li>
+                                <li>Baʼzi kurslardagi joyga munosib topilishingiz uchun intervyu, eshituv yoki portfolio topshirishingiz kerak boʻladi.</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{-- aa --}}
+
     <section class="our-campus-information-area ptb-100">
         <div class="container">
             <div class="row align-items-center">
@@ -76,12 +280,12 @@
                                 <li>Hold a recognized certificate of the English Language competence:</li>
                                 <ul>
                                     <li>IELTS 5.0 with a minimum of 5.0 in a writing component; or</li>
-                                    <li>a mark of 40% in IDU Internal English language examination; or</li>
-                                    <li>successful completion of Pre-Foundation Programme at IDU; or</li>
-                                    <li>other equivalent as published on the University website www.idu.uz.</li>
+                                    <li>a mark of 40% in JIU Internal English language examination; or</li>
+                                    <li>successful completion of Pre-Foundation Programme at JIU; or</li>
+                                    <li>other equivalent as published on the University website www.JIU.uz.</li>
                                 </ul>
-                                <li>IDU Mathematics entrance exam score at a minimum of 30% or successful completion of
-                                    Pre-Foundation Programme at IDU;</li>
+                                <li>JIU Mathematics entrance exam score at a minimum of 30% or successful completion of
+                                    Pre-Foundation Programme at JIU;</li>
                                 <li>Certificate of Complete Secondary Education (11 year school attestate, College diploma,
                                     Lyceum diploma for students from Uzbekistan or their international equivalents, i.e.
                                     GCSE);</li>
@@ -186,7 +390,7 @@
                                 </li>
                                 <li>Demonstrate personal development in terms of career choice(LO5)</li>
                                 <li>Demonstrate a range of transferable skills in: problem solving; communication; project
-                                    management; working individually and in teams; self-management; and the ability to
+                                    management; working indivJIUally and in teams; self-management; and the ability to
                                     gather, evaluate and reflect on information from relevant sources and synthesize new
                                     knowledge and solutions to requirements in the domain of applications of Computer
                                     Science.(LO6)</li>
@@ -241,15 +445,15 @@
                                 outcomes and level of study. The formal summative assessment of knowledge and understanding
                                 is mainly by written examinations and assignments, and to some extent, oral presentations.
                                 All modules provide for a variety of assessment including presentations (group and
-                                individual), essays, reports, problem-based assignments, in-class tests, exams.</p>
-                                <table class="table table-hover">
-                                    <thead>
+                                indivJIUal), essays, reports, problem-based assignments, in-class tests, exams.</p>
+                            <table class="table table-hover">
+                                <thead>
                                     <tr>
                                         <th>MODULE TITLE</th>
                                         <th>COURSE LEARNING OUTCOMES</th>
                                     </tr>
-                                    </thead>
-                                    <tbody>
+                                </thead>
+                                <tbody>
                                     <tr>
                                         <td>Business English</td>
                                         <td>LO2; LO5; LO6</td>
@@ -274,8 +478,8 @@
                                         <td>Problem solving in Science and Technology</td>
                                         <td>LO1; LO5</td>
                                     </tr>
-                                    </tbody>
-                                </table>
+                                </tbody>
+                            </table>
                             <h3>Assessment Methods</h3>
                             <p>At the International Digital University, a variety of modes of assessment will be used to
                                 support and test your learning and progress and to help you develop capabilities that are
@@ -332,7 +536,8 @@
                     <div class="col-lg-12">
                         <div class="campus-content mr-15" style="padding-top: 20px">
                             <h2>Employability in the Curriculum</h2>
-                            <p>A Foundation Programme in Business is a qualification, which can lead to further undergraduate degree studies in a wide range of universities across the country and abroad.
+                            <p>A Foundation Programme in Business is a qualification, which can lead to further
+                                undergraduate degree studies in a wide range of universities across the country and abroad.
                             </p>
                             <p>Our graduates expected to continue undergraduate studies and later pursue a career as</p>
                             <ul>

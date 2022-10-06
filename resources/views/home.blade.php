@@ -142,9 +142,9 @@
                 <div class="study-slider owl-carousel owl-theme">
                     <div class="single-study">
                         <i class="flaticon-finance"></i>
-                        <h4>
+                        <h3>
                             <a href="#">{{ __('home.section_vision_1_title') }}</a>
-                        </h4>
+                        </h3>
                         <p>{{ __('home.section_vision_1_title') }}</p>
                         <br>
                         <a href="{{ url('/contact') }}" class="read-more">
@@ -155,9 +155,9 @@
 
                     <div class="single-study">
                         <i class="flaticon-data-scientist"></i>
-                        <h4>
-                            <a href="#">{{ __('home.section_vision_2_title') }}</a>
-                        </h4>
+                        <h3>
+                            <a href="#">{{ substr(__('home.section_vision_2_title'),0,7) }} ...</a>
+                        </h3>
                         <p>{{ __('home.section_vision_2_title') }}</p>
                         <br>
                         <a href="{{ url('/contact') }}" class="read-more">
@@ -168,9 +168,9 @@
 
                     <div class="single-study">
                         <i class="flaticon-compliant"></i>
-                        <h4>
+                        <h3>
                             <a href="#">{{ __('home.section_vision_3_title') }}</a>
-                        </h4>
+                        </h3>
                         <p>{{ __('home.section_vision_3_title') }}</p>
                         <br>
                         <a href="{{ url('/contact') }}" class="read-more">
@@ -181,9 +181,9 @@
 
                     <div class="single-study">
                         <i class="flaticon-health"></i>
-                        <h4>
+                        <h3>
                             <a href="#">{{ __('home.section_vision_4_title') }}</a>
-                        </h4>
+                        </h3>
                         <p>{{ __('home.section_vision_4_title') }}</p>
 
                         <a href="{{ url('/contact') }}" class="read-more">
@@ -194,9 +194,9 @@
 
                     <div class="single-study">
                         <i class="flaticon-data-scientist"></i>
-                        <h4>
+                        <h3>
                             <a href="#">{{ __('home.section_vision_5_title') }}</a>
-                        </h4>
+                        </h3>
                         <p>{{ __('home.section_vision_5_title') }}</p>
 
                         <a href="{{ url('/contact') }}" class="read-more">
@@ -207,9 +207,9 @@
 
                     <div class="single-study">
                         <i class="flaticon-data-scientist"></i>
-                        <h4>
+                        <h3>
                             <a href="#">{{ __('home.section_vision_6_title') }}</a>
-                        </h4>
+                        </h3>
                         <p>{{ __('home.section_vision_6_title') }}</p>
                         <a href="{{ url('/contact') }}" class="read-more">
                             {{ __('home.section_vision_contact') }}
@@ -247,14 +247,14 @@
                 <div class="col-lg-6 col-sm-6 text-center">
                     <div class="single-simple-steps icon-bg-style">
                         <i class="flaticon-search"></i>
-                        <h3>{{ __('home.section_programmes_offer_1_title') }}</h3>
+                        <h3><a href="{{ url('/page/foundation-programme') }}" style="color: #252525">{{ __('home.section_programmes_offer_1_title') }}</a></h3>
                         <p>{{ __('home.section_programmes_offer_1_desc') }}</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6 text-center">
                     <div class="single-simple-steps icon-bg-style">
                         <i class="flaticon-presentation"></i>
-                        <h3>{{ __('home.section_programmes_offer_2_title') }}</h3>
+                        <h3><a href="{{ url('/page/foundationin-business') }}" style="color: #252525">{{ substr(__('home.section_programmes_offer_2_title'),0,23) }}</a></h3>
                         <p>{{ __('home.section_programmes_offer_2_desc') }}</p>
                     </div>
                 </div>

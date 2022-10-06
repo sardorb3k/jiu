@@ -1,27 +1,25 @@
 @extends('layouts.app')
-
+@section('title', __('jobs.title'))
 @section('content')
-    <x-breadcrumb title="Jobs" />
-    <section class="application-submit-area" id="applicationform">
+    <x-breadcrumb title="{{ __('jobs.title') }}" />
+    <section class="terms-conditions-area ptb-100">
         <div class="container">
-            <div class="application-submit-bg">
-                <div class="row align-items-center">
-                    <div class="col-lg-6">
-                        <div class="application-submit-content">
-                            <h2>{{ __('home.section_application_title') }}</h2>
-                            <a href="{{ route('login') }}" class="default-btn">
-                                {{ __('home.section_application_button') }}
-                                <i class="ri-arrow-right-line"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6">
-                        <div class="application-submit-img">
-                            <img src="{{ asset('assets/images/application-submit-img.png') }}" alt="Image">
-                        </div>
-                    </div>
-                </div>
+            <div class="main-default-content about-content">
+                <h2>{{ __('jobs.content_title') }}</h2>
+                <p>{{ __('jobs.content_desc') }}</p>
+                <div class="gap-20"></div>
+                <h2>{{ __('jobs.section_title') }}</h2>
+                <span>{{ __('jobs.jobs_1') }}</span>
+                <ul>
+                    <li>{{ __('jobs.jobs_1_item_1') }}</li>
+                    <li>{{ __('jobs.jobs_1_item_2') }}</li>
+                    <li>{{ __('jobs.jobs_1_item_3') }}</li>
+                </ul>
+                <div class="gap-20"></div>
+                <span>{{ __('jobs.jobs_2') }}</span>
+                <div class="gap-20"></div>
+                <span>{{ __('jobs.jobs_3') }}</span>
+                <div class="gap-20"></div>
             </div>
         </div>
     </section>
