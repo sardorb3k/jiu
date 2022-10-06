@@ -151,7 +151,7 @@
                                     </li>
                                     <li class="nav-item">
                                         <a href="{{ url('/page/foundationin-business') }}"
-                                            class="nav-link">{{ __('menu.admission_idu_academy') }}</a>
+                                            class="nav-link">{{ __('menu.admission_jiu_academy') }}</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="{{ url('/page/scholarship') }}"

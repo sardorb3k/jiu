@@ -14,7 +14,7 @@ return [
     'admission_apply' => ' How to apply ',
     'admission_foundation' => 'FOUNDATION IN IT',
     'admission_foundation_business' => 'FOUNDATION IN BUSINESS MANAGEMENT',
-    'admission_idu_academy' => ' IDU ACADEMY',
+    'admission_jiu_academy' => ' JIU ACADEMY',
     'admission_scholarship' => 'Scholarship',
     'admission_english_lang_cert' => 'ENGLISH LANGUAGE CERTIFICATES EQUIVALENTS',
     'about' => 'About Us',

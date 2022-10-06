@@ -14,7 +14,7 @@ return [
     'admission_apply' => 'Qanday murojaat qilish kerak',
     'admission_foundation' => 'IT sohasida asos',
     'admission_foundation_business' => 'Biznesni boshqarishda asos',
-    'admission_idu_academy' => ' JIU ACADEMY',
+    'admission_jiu_academy' => ' JIU ACADEMY',
     'admission_scholarship' => 'Stipendiya',
     'admission_english_lang_cert' => 'INGLIZ TILI SERTIFIKATLARI EKVIVALENTLARI',
     'about' => 'Biz haqimizda',

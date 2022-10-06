@@ -14,7 +14,7 @@ return [
     'admission_apply' => '  Подать документы ',
     'admission_foundation' => 'FOUNDATION IN IT',
     'admission_foundation_business' => 'FOUNDATION IN BUSINESS MANAGEMENT',
-    'admission_idu_academy' => ' IDU ACADEMY',
+    'admission_jiu_academy' => ' JIU ACADEMY',
     'admission_scholarship' => 'ГРАНТЫ',
     'admission_english_lang_cert' => 'ЭКВИВАЛЕНТЫ СЕРТИФИКАТОВ АНГЛИЙСКОГО ЯЗЫКА',
     'about' => ' О НАС ',
