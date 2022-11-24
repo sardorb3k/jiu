@@ -12,31 +12,25 @@
     <section class="studys-area study-area-style-two ptb-100">
         <div class="container">
             <div class="section-title">
-                <h2>Qanday hujjat topshiriladi</h2>
+                <h2>Подать документы</h2>
             </div>
             <div class="our-campus-bg our-campus-bg-style">
                 <div class="row align-items-center">
                     <div class="col-lg-5">
                         <div class="campus-content mr-15">
-                            <h2>Oʻzingizga mos kursni tanlang</h2>
-                            <p>Universitetda siz uchun bir necha kurslar mavjud. Foundation Course davrida siz qaysi fanni
-                                oʻqishni istayotganingizni aniqlab olishingiz kerak. Shundan keyin siz oʻzingizga qiziqarli
-                                kursni tanlasangiz boʻladi.</p>
+                            <h2>НАЙДИТЕ ПОДХОДЯЩИЙ КУРС ДЛЯ ВАС</h2>
+                            <p>В университете вам доступно множество различных курсов. Во-первых, вы должны определить, какой предмет вы хотите изучать. Далее вы можете посмотреть курсы, которые могут вас заинтересовать.</p>
                             <ul>
                                 <li><a href="/page/foundation-programme">"IT-FOUNDATION" DASTURI</a></li>
                                 <li><a href="/page/foundationin-business">JIU AKADEMIYA</a></li>
                             </ul>
-                            <p>Ma'lum bir taʼlim kursini tanlashdan avval, toʻgʻri yo'nalishni tanlash siz uchun muhim
-                                ahamiyatga ega boʻlishini taʼkidlash lozim. Tanlovingizni amalga oshirish uchun quyidagi
-                                koʻrsatkichlardan foydalaning.</p>
+                            <p>Прежде чем выбрать определенный курс обучения, важно отметить, что выбор правильного курса для вас имеет решающее значение. Используйте следующие подсказки, чтобы сделать свой выбор.</p>
                             <ul>
-                                <li>Kursning tarkibi sizga yoqdimi?</li>
-                                <li>Hozirda siz uchun qanday ish takliflari mavjud?</li>
-                                <li>Ariza topshirish jarayoni davomida biror imtihonni topshirishga toʻgʻri keladimi?</li>
+                                <li>Нравится ли вам содержание курса?</li>
+                                <li>Какие будущие должности будут доступны для вас?</li>
+                                <li>Будет ли вам нужно сдать экзамены для поступления?</li>
                             </ul>
-                            <p>Boshqalardan yordam soʻrash haqida oʻylab koʻring. Tanlovingiz borasida doʻstlaringiz va
-                                oilangiz bilan gaplashib koʻring yoki oʻqituvchingizga yoki karyera maslaxatchisiga yordam
-                                soʻrab murojaat qiling.</p>
+                            <p>Подумайте о том, чтобы попросить помощи у других. Поговорите с друзьями и семьей о своем выборе или обратитесь за помощью к учителю или консультанту по вопросам карьеры.</p>
                         </div>
                     </div>
                     <div class="col-lg-7">
@@ -53,29 +47,17 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="campus-content mr-15" style="padding-top: 20px;">
-                            <h2>Kirish talablari bilan tanishib chiqing</h2>
-                            <p>JIUda mavjud bo'lgan har bir kursda aniq qabul talablari o'rnatilgan. Belgilangan kurs
-                                sahifalarida kursga maxsus talablarni tekshirishingiz mumkin:</p>
+                            <h2>ПРОВЕРЬТЕ ТРЕБОВАНИЯ К ПОСТУПЛЕНИЮ</h2>
+                            <p>Каждый курс, доступный в IDU, имеет четкий набор требований для поступления. Вы можете проверить конкретные требования курса на указанных страницах курса:</p>
                             <ul>
-                                <li><a href="/page/foundation-programme">"IT-FOUNDATION" DASTURI</a></li>
-                                <li><a href="/page/foundationin-business">JIU AKADEMIYA</a></li>
+                                <li><a href="/page/foundation-programme">FOUNDATION IN IT</a></li>
+                                <li><a href="/page/foundationin-business">JIU ACADEMY</a></li>
                             </ul>
-                            <p>Universitet muvaffaqiyatga erishish imkoniyatiga ega deb hisoblagan abituriyentlarni qabul
-                                qilishga intiladi. Talabaning tanlagan dasturida muvaffaqiyatga erishish qobiliyati, rasmiy
-                                malakalar bilan bir qatorda, tinglov/suhbatda yoki shaxsiy bayonot orqali ariza berish
-                                orqali baholanadi. Har bir ariza o'z mohiyatiga ko'ra alohida baholanadi.</p>
-                            <p>Qabul komissiyasi tomonidan qabul qilingan har qanday akademik qaror abituriyent tomonidan
-                                ushbu talablarga javob berish haqidagi bayonotini tasdiqlovchi dalillar asosida qabul
-                                qilinadi..</p>
-                            <p>Akademik talablarni minimallashtirsih maqsadi JIUga qoʻshilgan talabalar JIU dasturini
-                                yakunlash va undan foyda olish uchun yetarli akademik qobiliyatni namoyish qilishlarini
-                                taʼminlashdan iborat.</p>
-                            <p>JIU abituriyentlarga taqdim etilgan maʼlumotlarning toʻgʻri boʻlishini taʼminlash
-                                majburiyatini oladi.</p>
-                            <p>Ariza topshirish vaqtida aniq ma'lumotlarni taqdim etish va qabul qaroriga ta'sir qilishi
-                                mumkin bo'lgan har qanday narsani oshkor qilish barcha abituriyentlarning javobgarligidir.
-                                Qaror qabul qilish jarayonida ta'sir qilishi mumkin bo'lgan ma'lumotlarni oshkor qilmaslik
-                                taklifni qaytarib olishga olib kelishi mumkin.</p>
+                            <p>Университет стремится принимать абитуриентов, которые, по его мнению, могут добиться успеха. Способность учащегося преуспеть в выбранной программе, наряду с формальными квалификациями, будет оцениваться путем подачи заявления, при необходимости, на прослушивании/собеседовании или посредством личного заявления. Каждая заявка оценивается индивидуально по своим достоинствам.</p>
+                            <p>Таким образом, любое академическое решение, принятое Приемной комиссией, основывается на доказательствах, представленных заявителем в подтверждение их заявления о соответствии этим требованиям.</p>
+                            <p>Целью установления минимальных академических требований для поступления является обеспечение того, чтобы поступающие в IDU, продемонстрировали достаточную академическую способность для завершения и получения выгоды от программы IDU.</p>
+                            <p>IDU стремится обеспечить точность и правильность информации, предоставляемой постуающим.</p>
+                            <p>Все поступающие обязаны предоставлять точную информацию во время подачи заявления и раскрывать все, что может повлиять на решение о приеме. Непредоставление информации, которая могла бы повлиять на процесс принятия решения, может привести к отказу предложения.</p>
                         </div>
                     </div>
                 </div>
@@ -88,22 +70,19 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="campus-content mr-15" style="padding-top: 20px;">
-                            <h2>Ariza topshiring</h2>
-                            <p>To'g'ridan-to'g'ri veb-saytimizdan tuhsgan arizalar "Foundation" va JIU Akademiyasi
-                                dasturlaridan iborat. Quyidagi havolalarni bosish orqali siz avtomatik ravishda onlayn ariza
-                                shakliga yo'naltirilasiz. Ariza topshirishdan oldin sizda barcha kerakli hujjatlar
-                                mavjudligiga ishonch hosil qiling:</p>
+                            <h2>ПОДАЙТЕ ЗАЯВКУ</h2>
+                            <p>Заявки, сделанные с нашего веб-сайта, включают программы Foundation и Академия IDU . Через ссылки ниже, вы будете автоматически перенаправлены на форму онлайн-заявки. Перед подачей заявки убедитесь, что у вас есть все необходимые документы:</p>
                             <ul>
-                                <li><a href="/page/foundation-programme">"IT-FOUNDATION" DASTURI</a></li>
-                                <li><a href="/page/foundationin-business">JIU AKADEMIYA</a></li>
+                                <li><a href="/page/foundation-programme">FOUNDATION IN IT</a></li>
+                                <li><a href="/page/foundationin-business">IDU ACADEMY</a></li>
                             </ul>
-                            <p>JIUda 2022/2023 yillarda quyidagi kurslarni boshlashni rejalashtirmoqda:</p>
+                            <p>IDU планирует запустить следующие курсы в 2023/2024 гг.</p>
                             <ul>
-                                <li>MA’LUMOTLAR ILMINI Oʻrganasiz</li>
-                                <li>Sun'iy Intellekt</li>
-                                <li>Oʻyin Yaratish</li>
-                                <li>Kiberxavfsizlik</li>
-                                <li>Raqamli Biznes</li>
+                                <li>Наука О Данных</li>
+                                <li>Искусственный Интеллект</li>
+                                <li>Разработка Игр</li>
+                                <li>Кибер Безопасность</li>
+                                <li>Цифровой Бизнес</li>
                             </ul>
                         </div>
                     </div>
@@ -117,15 +96,9 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="campus-content mr-15" style="padding-top: 20px;">
-                            <h2>Qabul qilinganingizdan soʻng</h2>
-                            <p>Siz dasturga qabul qilinganingizni, suhbatga taklif qilinganingizni yoki arizangiz holati
-                                (statusini bilmoqchi bo'lsangiz XDU akkauntidan foydalanib tizimga kiring.</p>
-                            <p>Arizangizni ko'rib chiqish bo'yicha yangilanishlarni bilish uchun siz bizning "call" markazi
-                                xizmatlaridan ham foydalanishingiz mumkin. E'tibor bering, arizangiz bilan bog'liq barcha
-                                natijalar sizning shaxsiy ma'lumotlaringiz sifatida ko'rib chiqiladi. Shunday qilib, ular
-                                haqida faqat sizning shaxsiy JIU hisobingiz orqali o'zingiz xabardor bo'lasiz va qo'shimcha
-                                ravishda ro'yxatdan o'tish paytida ko'rsatilgan elektron pochtangizga tegishli ma'lumotlar
-                                yuboriladi.</p>
+                            <h2>ПОСЛЕ ПРИЕМА ЗАЯВКИ</h2>
+                            <p>Возможно, вы захотите узнать, приняты ли вы в программу или предложили ли вам собеседование. Чтобы быть в курсе прогресса вашей заявки, используйте свою учетную запись IDU.</p>
+                            <p>Вы также можете воспользоваться услугами нашего колл-центра, чтобы узнать об обновлениях обработки вашего заявления. Обратите внимание, что все результаты, относящиеся к вашей заявке, считаются вашими личными данными и будут обрабатываться соответствующим образом. Поэтому вы будете официально проинформированы о них только через вашу личную учетную запись IDU, и, кроме того, соответствующая информация будет отправлена ​​​​на ваш адрес электронной почты, указанный при регистрации.</p>
                         </div>
                     </div>
                 </div>
@@ -138,23 +111,15 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="campus-content mr-15" style="padding-top: 20px;">
-                            <h2>Kirish imtihonlarini topshiring</h2>
-                            <p>Universitet muvaffaqiyatga erishish imkoniyatiga ega deb hisoblagan abituriyentlarni qabul
-                                qilishga intiladi. JIU dasturlarining tabiatidan kelib chiqib, siz JIU ichki imtihonlari
-                                yoki ekvivalentlari orqali ko'rsatilgan ingliz tili va matematika fanlarini yetarli darajada
-                                o'zlashtirishingiz muhim ahamiyatga ega. Universitet muvaffaqiyatga erishish imkoniyatiga
-                                ega deb hisoblagan abituriyentlarni qabul qilishga intiladi. JIU dasturlarining tabiatidan
-                                kelib chiqib, siz JIU ichki imtihonlari yoki ekvivalentlari orqali ko'rsatilgan ingliz tili
-                                va matematika fanlarini yetarli darajada o'zlashtirishingiz muhim.
+                            <h2>СДАЙТЕ ВСТУПИТЕЛЬНЫЕ ЭКЗАМЕНЫ</h2>
+                            <p>Университет стремится принимать абитуриентов, которые, по его мнению, могут добиться успеха. В связи с характером программ IDU важно, чтобы у вас было достаточное владение английским языком и математикой, продемонстрированные на внутренних экзаменах IDU или их эквивалентах.
                             </p>
-                            <p>Siz ikkita fandan imtihon topshirasiz: ingliz tili va matematika</p>
-                            <p>Kirish imtihonini topshirish uchun siz avval quyidagi havola orqali royxatdan oʻtishingiz
-                                kerak: https://www.JIU.uz/register or use our cal centre services</p>
-                            <p>Imtihonlarga tayyorgarlik ko'rish uchun siz ushbu veb-saytdagi ma'lumotlardan
-                                foydalanishingiz mumkin:</p>
+                            <p>Вы будете сдавать экзамены по двум предметам: английский язык и математика</p>
+                            <p>Для сдачи вступительного экзамена вам необходимо зарегистрироваться на него по следующей ссылке: https://www.jiu.uz/register or use our cal centre services</p>
+                            <p>Для подготовки к экзаменам вы можете использовать ресурсы и информацию, опубликованные на этом сайте:</p>
                             <ul>
-                                <li><a href="/page/english-exam">Ingliz tili imtihonlari haqida ma'lumot</a></li>
-                                <li><a href="/page/maths-exam">Matematika imtihonlari haqida ma'lumot</a></li>
+                                <li><a href="/page/english-exam">Информация об экзамене по английскому языку</a></li>
+                                <li><a href="/page/maths-exam">Информация об экзамене по математике</a></li>
                             </ul>
                         </div>
                     </div>
@@ -168,18 +133,18 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="campus-content mr-15" style="padding-top: 20px;">
-                            <h2>Arizangiz boʻyicha biz qabul qiladigan qarorlar</h2>
-                            <p>Barcha arizalar bo'yicha qarorlar qabul komissiyasi tomonidan qabul qilinadi</p>
-                            <p>Arizangizni ko'rib chiqishda bizga yordam berish uchun qo'shimcha ma'lumot so'rashimiz mumkin. Bu ishonchnomalar/sertifikatlarning tasdiqlangan nusxalarini o'z ichiga olishi mumkin. Bunday holda, biz siz bilan bog'lanib, qo'shimcha ma'lumotlarni olish uchun murojaat qilamiz.</p>
-                            <p>Qabul komissiyasi barcha to'liq arizalarni ko'rib chiqadi va har bir ariza bo'yicha quyidagi qarorlardan birini chiqaradi:</p>
+                            <h2>РЕШЕНИЯ, КОТОРЫЕ МЫ ПРИНИМАЕМ ПО ВАШЕМУ ЗАЯВЛЕНИЮ</h2>
+                            <p>Решения по всем заявлениям принимаются приемной комиссией.</p>
+                            <p>Мы можем запросить дополнительную информацию, так как она помочь нам в обработке вашего заявления. Это может включать заверенные копии учетных данных/сертификатов. В этом случае мы свяжемся с вами, чтобы запросить такую типа ​​дополнительную информацию.</p>
+                            <p>Приемная комиссия рассматривает все заполненные заявки на сегодняшний день и выносит одно из следующих решений в отношении каждой заявки:</p>
                             <ol type="a">
-                                <li>"Shartsiz taklif" agar qabulning barcha talablari talabgor tomonidan bajarilgan bo'lsa, qaror qabul qilinadi.</li>
-                                <li>"Shartli taklif" agar qabul qilish talablarining ko'p qismi talabgor tomonidan bajarilgan bo'lsa va to'liq bo'lmagan talablar belgilangan muddatgacha bajarilsa, qaror qabul qilinadi. Bunday holda, talabnoma beruvchiga universitetga kirish sharti sifatida belgilangan muddat va hujjatlar ro'yxati taqdim etiladi.</li>
-                                <li>"Qabul qilish rad etilgan" - bu talab qilingan hujjatlarni topshirish muddatlari o'tgandan keyin yoki abituriyent noto'g'ri ma'lumot bergan bo'lsa yoki qabul komissiyasi abituriyentning dasturda muvaffaqiyatga erishish imkoniyati kam deb hisoblasa yoki oldingi ma'lumotlarga asoslanib qabul qilingan qarordir, ariza yozuvlari yoki qonunlar yoki ichki qoidalar bilan belgilangan boshqa talablar.</li>
-                                <li>"Qo'shimcha ma'lumot so'rash" Kengash qaror qabul qilish uchun qo'shimcha dalillar zarur deb hisoblagan hollarda qabul qilinadi. Ariza beruvchi talablarga javob berganidan va so‘ralgan qo‘shimcha dalillar taqdim etilganidan keyin Kengash tomonidan qayta ko‘rib chiqiladi.
+                                <li>"Безусловное предложение" Решение принимается, если поступающий соответствует всем требованиям приема.</li>
+                                <li>"Условное предложение" Решение принимается, если заявитель соответствует большинству вступительных требований, а невыполненные требования должны быть выполнены к установленному сроку. В этом случае абитуриенту, имеющему крайний срок и список доказательств, которые должны быть представлены в установленный срок, дается условное предложение в качестве условия для поступления в университет.</li>
+                                <li>"Отказ в зачислении" это решение принимается после истечения сроков представления нужных документов, или если заявитель предоставил неверную информацию, или если приемная комиссия считает, что у заявителя мало шансов преуспеть в программе, или на основании предыдущих записей о заявках или любых других требованиях, установленных законодательством или внутренними порядками.</li>
+                                <li>"Запрос дополнительной информации" Это решение принимается, когда Cовет считает, что для принятия решения необходимы дополнительные доказательства. Заявитель повторно рассматривается Советом после выполнения требований и представления запрошенных дополнительных доказательств.
                                 </li>
                             </ol>
-                            <p>Qabul komissiyasi abituriyentlar taqdim etgan dalillar asosida qaror qabul qiladi.</p>
+                            <p>Приемная комиссия принимает решения на основании представленных абитуриентами доказательств.</p>
                         </div>
                     </div>
                 </div>
@@ -192,13 +157,13 @@
                 <div class="row align-items-center">
                     <div class="col-lg-12">
                         <div class="campus-content mr-15" style="padding-top: 20px;">
-                            <h2>Keyingi qadamlar</h2>
+                            <h2>ЧТО ДАЛЬШЕ</h2>
                             <ol type="a">
-                                <li>Qabul boʻlimimiz arizangizni topshirishingiz bilan uni qabul qilib oladi.</li>
-                                <li>Biz qarorni arizangizga asoslanib qabul qilamiz va natijasini email manzilingiz orqali sizga xabar beramiz.</li>
-                                <li>Ehtiyot chorasi sifatida arizangizga tegishli muhim axborotni oʻtkazib yubormaslik uchun elektron pochtangizni muntazam tekshirib turing.</li>
-                                <li>Agar tanlagan kursingizning kirish talablariga javob bermasangiz, sizga muqobil kurs taklif qilinishi mumkin.</li>
-                                <li>Baʼzi kurslardagi joyga munosib topilishingiz uchun intervyu, eshituv yoki portfolio topshirishingiz kerak boʻladi.</li>
+                                <li>Наш приемный отдел получит вашу заявку после ее подачи.</li>
+                                <li>Мы примем решение на основе вашей заявки и уведомим вас по электронной почте о результате.</li>
+                                <li>На всякий случай не забывайте регулярно проверять свою электронную почту, чтобы не пропустить важную информацию о своей заявке.</li>
+                                <li>Возможно, мы можем предложить вам альтернативный курс, если вы не отвечаете требованиям для поступления на выбранный вами курс.</li>
+                                <li>Для некоторых курсов вам нужно будет отправить интервью, прослушивание или портфолио, чтобы получить место.</li>
                             </ol>
                         </div>
                     </div>
