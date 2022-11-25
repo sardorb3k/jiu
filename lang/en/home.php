@@ -12,7 +12,7 @@ return [
     'section_about_desc' => 'At JIU, you not only gain knowledge of the international standards, but also learn how to use it with a great benefit!',
     'section_about_content' => 'JIU prepares specialists who are in demand now and will be in demand in the near future by organizations and institutions working not only in the IT, but also in the economy, business, healthcare, and social spheres. Therefore, a practice-oriented approach is a priority in our educational program.',
     // Section 2
-    'section_founder_title' => 'Ibrokhim Khurramov',
+    'section_founder_title' => 'Hirose Yuya',
     'section_founder_desc' => 'founder of JIU',
     'section_founder_content' => 'September 13, 2022 has become a historical day in the life of the education system of the Republic of Uzbekistan and for the entire large JIU family because on that day, JIU obtained a license to teach undergraduate courses! We have been moving towards this day for a long time, and I am full of confidence and enthusiasm that in the future we will achieve even higher goals! On behalf of the entire JIU, I want to thank all our partners, colleagues, staff, students and their parents, along all those who supported us!',
     // Section 3

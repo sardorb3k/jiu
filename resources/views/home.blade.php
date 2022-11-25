@@ -123,7 +123,7 @@
 
                     <div class="col-lg-7">
                         <div class="campus-img-2 ml-15">
-                            <img src="{{ asset('uploads/Ibrokhim Khurramov.webp') }}" alt="Image">
+                            <img src="{{ asset('assets/images/hiroseyuya.webp') }}" alt="Image">
                         </div>
                     </div>
                 </div>

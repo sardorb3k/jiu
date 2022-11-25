@@ -12,7 +12,7 @@ return [
     'section_about_desc' => 'JIUda siz nafaqat xalqaro standart bo\'yicha bilimga ega bo\'lasiz, balki olgan bilimlaringizdan to\'g\'ri foydalanishni ham o\'rganasiz.',
     'section_about_content' => 'JIU nafaqat IT sohasida, balki iqtisodiyot, biznes, sog‘liqni saqlash va ijtimoiy sohalarda ham faoliyat yurituvchi tashkilot va muassasalar tomonidan hozir talab va yaqin kelajakda talabga ega bo‘lgan mutaxassislarni tayyorlaydi. Shu sababli, ta\'lim dasturimizda amaliyotga yo\'naltirilgan yondashuv ustuvor hisoblanadi.',
     // Section 2
-    'section_founder_title' => 'Ibrokhim Khurramov',
+    'section_founder_title' => 'Hirose Yuya',
     'section_founder_desc' => 'JIU asoschisi',
     'section_founder_content' => 'Biz studentlarimizga o‘z karyeralarida muvaffaqiyat qozonishlariga yordam beramiz – ular uchun ishtiyoqli bo‘lgan sohani kashf qilgan holda biz ularga bu sohani boshqarishligi uchun ko‘nikmalar beramiz. Biz Buyuk Britaniya standartlari bo\'yicha xalqaro darajadagi bilimlarni taqdim etamiz va Markaziy Osiyodagi yetakchi oliy ta\'lim muassasalaridan biri bo’lishga intilamiz.',
     // Section 3

@@ -50,7 +50,7 @@
                               <a href="{{ route('contact') }}">{{ __('menu.contact') }}</a>
                           </li>
                           <li>
-                              <a href="{{ url('/license') }}">{{ __('menu.about_license') }}</a>
+                              <a href="{{ url('/uploads/license.pdf') }}">{{ __('menu.about_license') }}</a>
                           </li>
                       </ul>
                   </div>

@@ -111,10 +111,10 @@
                                         <a href="{{ url('/page/examination-procedure#english') }}"
                                             class="nav-link">{{ __('menu.examination_exam') }}</a>
                                     </li>
-                                    <li class="nav-item">
+                                    {{-- <li class="nav-item">
                                         <a href="{{ url('/page/examination-procedure#math') }}"
                                             class="nav-link">{{ __('menu.examination_math') }}</a>
-                                    </li>
+                                    </li> --}}
                                     <li class="nav-item">
                                         <a href="{{ url('/page/examination-results') }}"
                                             class="nav-link">{{ __('menu.examination_results') }}</a>
