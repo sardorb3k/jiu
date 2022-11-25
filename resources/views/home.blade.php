@@ -13,7 +13,7 @@
                                 <h1>{{ __('home.description') }}</h1>
 
                                 <div class="banner-btn">
-                                    <a href="{{ url('/application') }}" class="default-btn">
+                                    <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
                                         {{ __('home.application') }}
                                         <i class="ri-arrow-right-line"></i>
                                     </a>
@@ -323,7 +323,7 @@
                     <div class="col-lg-6">
                         <div class="application-submit-content">
                             <h2>{{ __('home.section_application_title') }}</h2>
-                            <a href="{{ route('login') }}" class="default-btn">
+                            <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
                                 {{ __('home.section_application_button') }}
                                 <i class="ri-arrow-right-line"></i>
                             </a>
