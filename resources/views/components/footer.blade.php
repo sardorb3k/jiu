@@ -91,7 +91,7 @@
                               <i class="ri-phone-line"></i>
                               <span>{{ __('site.phone') }}</span>
                               <a
-                                  href="tel:{{ $system->site_phone }}">+{{ sprintf('%s %s %s %s %s', substr($system->site_phone, 0, 3), substr($system->site_phone, 3, 2), substr($system->site_phone, 5, 3), substr($system->site_phone, 6, 2), substr($system->site_phone, 10, 2)) }}</a>
+                                  href="tel:{{ $system->site_phone }}">+{{ sprintf('(%s) %s %s %s %s', substr($system->site_phone, 0, 3), substr($system->site_phone, 3, 2), substr($system->site_phone, 5, 3), substr($system->site_phone, 8, 2), substr($system->site_phone, 10, 2)) }}</a>
                           </li>
                       </ul>
                   </div>

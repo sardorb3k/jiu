@@ -9,7 +9,7 @@
                         <li>
                             <a href="tel:{{ $system->site_phone }}">
                                 <i class="ri-phone-fill"></i>
-                                +{{ sprintf('(%s) %s %s %s %s', substr($system->site_phone, 0, 3), substr($system->site_phone, 3, 2), substr($system->site_phone, 5, 3), substr($system->site_phone, 6, 2), substr($system->site_phone, 10, 2)) }}
+                                +{{ sprintf('(%s) %s %s %s %s', substr($system->site_phone, 0, 3), substr($system->site_phone, 3, 2), substr($system->site_phone, 5, 3), substr($system->site_phone, 8, 2), substr($system->site_phone, 10, 2)) }}
                             </a>
                         </li>
                     </ul>
@@ -203,7 +203,10 @@
                         <div class="others-options">
                             <ul>
                                 <li>
-                                    @guest
+                                    <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
+                                        {{ __('site.application') }}
+                                    </a>
+                                    {{-- @guest
                                         @if (Route::has('login'))
                                             <a href="{{ url('/register') }}" class="default-btn">
                                                 {{ __('site.application') }}
@@ -213,7 +216,7 @@
                                         <a href="{{ route('dashboard.index') }}" class="default-btn">
                                             {{ __('site.application') }}
                                         </a>
-                                    @endguest
+                                    @endguest --}}
                                 </li>
                             </ul>
                         </div>

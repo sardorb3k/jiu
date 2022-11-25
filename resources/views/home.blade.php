@@ -34,7 +34,7 @@
 
                         <div class="col-lg-6">
                             <div class="banner-img">
-                                <img src="assets/images/banner/banner-img-1.jpg" alt="Image">
+                                <img src="uploads/2.webp" style="animation: fadeIn 5s;" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -304,13 +304,13 @@
                     </div>
                 </div>
 
-                {{-- <div class="col-lg-3 col-sm-6">
+                <div class="col-lg-3 col-sm-6">
                     <div class="single-simple-steps">
                         <i class="flaticon-presentation"></i>
-                        <h3>{{ __('home.section_programmes_4_title') }}</h3>
-                        <p>{{ __('home.section_programmes_4_desc') }}</p>
+                        <h3>{{ __('home.section_programmes_5_title') }}</h3>
+                        <p>{{ __('home.section_programmes_5_desc') }}</p>
                     </div>
-                </div> --}}
+                </div>
             </div>
         </div>
     </section>
