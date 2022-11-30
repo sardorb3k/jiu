@@ -95,16 +95,19 @@
                 <div class="col-lg-6">
                     <div class="about-content ml-15">
                         <h3>{{ __('home.section_about_title') }}</h3>
-                        <span>{{ __('home.section_about_desc') }}</span>
+                        {{-- <span>{{ __('home.section_about_desc') }}</span> --}}
 
                         <p>{{ __('home.section_about_content') }}</p>
+                        <a href="https://forms.amocrm.ru/rltmmwd" class="read-more">
+                            {{ __('home.section_about_button') }}
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- End About Area -->
-    <section class="our-campus-information-area pb-100" id="founder">
+    {{-- <section class="our-campus-information-area pb-100" id="founder">
         <div class="container">
             <div class="our-campus-bg our-campus-bg-style">
                 <div class="row align-items-center">
@@ -113,11 +116,6 @@
                             <h3>{{ __('home.section_founder_title') }}</h3>
                             <span>{{ __('home.section_founder_desc') }}</span>
                             <p>{{ __('home.section_founder_content') }}</p>
-
-                            {{-- <a href="campus-information.html" class="read-more">
-                                Find out more
-                                <span class="ri-arrow-right-line"></span>
-                            </a> --}}
                         </div>
                     </div>
 
@@ -129,7 +127,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section class="study-area pt-100 pb-70" id="opportunities">
         <div class="container">
@@ -145,25 +143,15 @@
                         <h3>
                             <a href="#">{{ __('home.section_vision_1_title') }}</a>
                         </h3>
-                        <p>{{ __('home.section_vision_1_title') }}</p>
-                        <br>
-                        <a href="{{ url('/contact') }}" class="read-more">
-                            {{ __('home.section_vision_contact') }}
-                            <span class="ri-arrow-right-line"></span>
-                        </a>
+                        <p>{{ __('home.section_vision_1_content') }}</p>
                     </div>
 
                     <div class="single-study">
                         <i class="flaticon-data-scientist"></i>
                         <h3>
-                            <a href="#">{{ substr(__('home.section_vision_2_title'),0,7) }} ...</a>
+                            <a href="#">{{ __('home.section_vision_2_title') }}</a>
                         </h3>
-                        <p>{{ __('home.section_vision_2_title') }}</p>
-                        <br>
-                        <a href="{{ url('/contact') }}" class="read-more">
-                            {{ __('home.section_vision_contact') }}
-                            <span class="ri-arrow-right-line"></span>
-                        </a>
+                        <p>{{ __('home.section_vision_2_content') }}</p>
                     </div>
 
                     <div class="single-study">
@@ -171,12 +159,7 @@
                         <h3>
                             <a href="#">{{ __('home.section_vision_3_title') }}</a>
                         </h3>
-                        <p>{{ __('home.section_vision_3_title') }}</p>
-                        <br>
-                        <a href="{{ url('/contact') }}" class="read-more">
-                            {{ __('home.section_vision_contact') }}
-                            <span class="ri-arrow-right-line"></span>
-                        </a>
+                        <p>{{ __('home.section_vision_3_content') }}</p>
                     </div>
 
                     <div class="single-study">
@@ -184,12 +167,7 @@
                         <h3>
                             <a href="#">{{ __('home.section_vision_4_title') }}</a>
                         </h3>
-                        <p>{{ __('home.section_vision_4_title') }}</p>
-
-                        <a href="{{ url('/contact') }}" class="read-more">
-                            {{ __('home.section_vision_contact') }}
-                            <span class="ri-arrow-right-line"></span>
-                        </a>
+                        <p>{{ __('home.section_vision_4_content') }}</p>
                     </div>
 
                     <div class="single-study">
@@ -197,39 +175,30 @@
                         <h3>
                             <a href="#">{{ __('home.section_vision_5_title') }}</a>
                         </h3>
-                        <p>{{ __('home.section_vision_5_title') }}</p>
-
-                        <a href="{{ url('/contact') }}" class="read-more">
-                            {{ __('home.section_vision_contact') }}
-                            <span class="ri-arrow-right-line"></span>
-                        </a>
-                    </div>
-
-                    <div class="single-study">
-                        <i class="flaticon-data-scientist"></i>
-                        <h3>
-                            <a href="#">{{ __('home.section_vision_6_title') }}</a>
-                        </h3>
-                        <p>{{ __('home.section_vision_6_title') }}</p>
-                        <a href="{{ url('/contact') }}" class="read-more">
-                            {{ __('home.section_vision_contact') }}
-                            <span class="ri-arrow-right-line"></span>
-                        </a>
+                        <p>{{ __('home.section_vision_5_content') }}</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="our-campus-information-area pb-100" id="ourmission">
+    <section class="application-submit-area" id="applicationform">
         <div class="container">
-            <div class="our-campus-bg our-campus-bg-style">
+            <div class="application-submit-bg">
                 <div class="row align-items-center">
-                    <div class="mt-5 mb-5">
-                        <div class="campus-content ml-15" style="text-align: center;">
-                            <h2>{{ __('home.section_mission_title') }}</h2>
-                            <span>{{ __('home.section_mission_desc') }}</span>
-                            <p>{{ __('home.section_mission_content') }}</p>
+                    <div class="col-lg-6">
+                        <div class="application-submit-content">
+                            <h2>{{ __('home.section_application_4_title') }}</h2>
+                            <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
+                                {{ __('home.section_application_4_button') }}
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="application-submit-img">
+                            <img src="{{ asset('assets/images/application-submit-img.png') }}" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -237,84 +206,279 @@
         </div>
     </section>
 
-    <section class="simple-steps-area pt-100 pb-70" id="programmesweofferfor">
+
+    <section class="simple-steps-area pb-70 pt-70" id="bachelorsprogrammes">
         <div class="container">
             <div class="section-title">
-                <h2>{{ __('home.section_programmes_offer_title') }}</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-6 col-sm-6 text-center">
-                    <div class="single-simple-steps icon-bg-style">
-                        <i class="flaticon-search"></i>
-                        <h3><a href="{{ url('/page/foundation-programme') }}" style="color: #252525">{{ __('home.section_programmes_offer_1_title') }}</a></h3>
-                        <p>{{ __('home.section_programmes_offer_1_desc') }}</p>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-sm-6 text-center">
-                    <div class="single-simple-steps icon-bg-style">
-                        <i class="flaticon-presentation"></i>
-                        <h3><a href="{{ url('/page/foundationin-business') }}" style="color: #252525">{{ substr(__('home.section_programmes_offer_2_title'),0,23) }}</a></h3>
-                        <p>{{ __('home.section_programmes_offer_2_desc') }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="simple-steps-area pb-70" id="bachelorsprogrammes">
-        <div class="container">
-            <div class="section-title">
-                <h2>{{ __('home.section_programmes_title') }}</h2>
+                <h3>{{ __('home.section_programmes_title') }}</h3>
                 {{-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna</p> --}}
             </div>
 
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-simple-steps">
-                        <i class="flaticon-search"></i>
-                        <h3>{{ __('home.section_programmes_1_title') }}</h3>
-                        <p>{{ __('home.section_programmes_1_desc') }}</p>
-                        <br>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-simple-steps text-center">
+                        <i class="ri-mac-fill"></i>
+                        <h5>{{ __('home.section_programmes_1_title') }}</h5>
+                        {{-- <p>{{ __('home.section_programmes_1_desc') }}</p> --}}
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-simple-steps">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-simple-steps text-center">
                         <i class="flaticon-choosing"></i>
-                        <h3>{{ __('home.section_programmes_2_title') }}</h3>
-                        <p>{{ __('home.section_programmes_2_desc') }}</p>
+                        <h5>{{ __('home.section_programmes_2_title') }}</h5>
+                        {{-- <p>{{ __('home.section_programmes_2_desc') }}</p> --}}
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-simple-steps">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-simple-steps text-center">
                         <i class="flaticon-contract"></i>
-                        <h3>{{ __('home.section_programmes_3_title') }}</h3>
-                        <p>{{ __('home.section_programmes_3_desc') }}</p>
+                        <h5>{{ __('home.section_programmes_3_title') }}</h5>
+                        {{-- <p>{{ __('home.section_programmes_3_desc') }}</p> --}}
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-simple-steps">
+                <div class="col-lg-6 col-sm-6">
+                    <div class="single-simple-steps text-center">
                         <i class="flaticon-presentation"></i>
-                        <h3>{{ __('home.section_programmes_4_title') }}</h3>
-                        <p>{{ __('home.section_programmes_4_desc') }}</p>
+                        <h5>{{ __('home.section_programmes_4_title') }}</h5>
+                        {{-- <p>{{ __('home.section_programmes_4_desc') }}</p> --}}
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div class="single-simple-steps">
-                        <i class="flaticon-presentation"></i>
-                        <h3>{{ __('home.section_programmes_5_title') }}</h3>
-                        <p>{{ __('home.section_programmes_5_desc') }}</p>
+                <div class="col-lg-6 col-sm-6">
+                    <div class="single-simple-steps text-center">
+                        <i class="ri-flight-takeoff-fill"></i>
+                        <h5>{{ __('home.section_programmes_5_title') }}</h5>
+                        {{-- <p>{{ __('home.section_programmes_5_desc') }}</p> --}}
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="our-campus-information-area pb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xl-7">
+                    <div class="campus-img">
+                        <img src="assets/images/grant-unviversity.webp" alt="Image">
+                    </div>
+                </div>
+
+                <div class="col-xl-5">
+                    <div class="campus-content">
+                        <span>Japanese International University</span>
+                        <h2>{{ __('home.section_grant_title') }}</h2>
+                        <p>{{ __('home.section_grant_content') }}</p>
+                        <br>
+                        <a href="#" class="read-more">
+                            {{ __('home.section_grant_button') }}
+                            <span class="ri-arrow-right-line"></span>
+                        </a>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus-experience-area ptb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="logistics-solutions-img bg-2">
+                        <div class="video-button">
+                            <a href="https://www.youtube.com/watch?v=ALjXexIheUg&ab_channel=JUSTGRANT"
+                                class="popup-youtube video-btn">
+                                <i class="flaticon-play-button"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="campus-experience-slider owl-carousel owl-theme owl-loaded owl-drag">
+
+
+
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                style="transform: translate3d(-1908px, 0px, 0px); transition: all 1s ease 0s; width: 3817px;">
+                                <div class="owl-item cloned" style="width: 636.016px;">
+                                    <div class="single-campus-experience">
+                                        <h3>{{ __('home.section_7_title') }}</h3>
+                                        <p>{{ __('home.section_7_content') }}</p>
+                                        <br>
+                                        <br>
+                                        <a href="campus-experience.html" class="read-more">
+                                            {{ __('home.section_7_button') }}
+                                            <i class="ri-arrow-right-line"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="application-submit-area pt-70" id="applicationform">
+        <div class="container">
+            <div class="application-submit-bg">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="application-submit-content">
+                            <h2>{{ __('home.section_application_8_title') }}</h2>
+                            <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
+                                {{ __('home.section_application_8_button') }}
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="application-submit-img">
+                            <img src="{{ asset('assets/images/application-submit-img.png') }}" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-area pt-100 pb-70">
+        <div class="container">
+            <div class="section-title">
+                <h2>{{ __('home.section_8_title') }}</h2>
+            </div>
+
+            <div class="row justify-content-md-center">
+                <div class="col-lg-5 col-md-6">
+                    <div class="single-blog">
+                        <a href="blog-details.html" class="blog-img">
+                            <img src="assets/images/workstudy.jpg" alt="Image">
+                        </a>
+
+                        <div class="blog-content">
+
+                            <h3>
+                                <a href="#">
+                                    {{ __('home.section_8_card_1_title') }}
+                                </a>
+                            </h3>
+
+                            <p>{{ __('home.section_8_card_1_content') }}</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 col-md-6">
+                    <div class="single-blog">
+                        <a href="blog-details.html" class="blog-img">
+                            <img src="assets/images/worktravel.webp" alt="Image">
+                        </a>
+
+                        <div class="blog-content">
+
+                            <h3>
+                                <a href="#">
+                                    {{ __('home.section_8_card_2_title') }}
+                                </a>
+                            </h3>
+
+                            <p>{{ __('home.section_8_card_2_content') }}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="events-area bg-color ptb-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                    <div class="events-content mr-15">
+                        {{-- <span>O’qi. Ishtirok et. Zavqlan.</span> --}}
+                        <h1>{{ __('home.section_10_title') }}</h1>
+                        <h4>{{ __('home.section_10_title_2') }}</h4>
+
+                        <div class="row">
+                            <div class="col-lg-4 mt-5">
+                                <div class="events-timer ml-15" style="padding: 15px 0px">
+                                    <i class="flaticon-choosing" style="font-size: 50px;color: white;"></i>
+                                    <span>{{ __('home.section_10_card_1_title') }}</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-5">
+                                <div class="events-timer ml-15" style="padding: 15px 0px">
+                                    <i class="ri-building-4-fill" style="font-size: 50px;color: white;"></i>
+                                    <span>{{ __('home.section_10_card_2_title') }}</span>
+                                    <br>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-5">
+                                <div class="events-timer ml-15" style="padding: 15px 0px">
+                                    <i class="ri-riding-line" style="font-size: 50px;color: white;"></i>
+                                    <span>{{ __('home.section_10_card_3_title') }}</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-5">
+                                <div class="events-timer ml-15" style="padding: 15px 0px">
+                                    <i class="ri-group-fill" style="font-size: 50px;color: white;"></i>
+                                    <span>{{ __('home.section_10_card_4_title') }}</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-5">
+                                <div class="events-timer ml-15" style="padding: 15px 0px">
+                                    <i class="ri-flight-takeoff-fill" style="font-size: 50px;color: white;"></i>
+                                    <span>{{ __('home.section_10_card_5_title') }}</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mt-5">
+                                <div class="events-timer ml-15" style="padding: 15px 0px">
+                                    <i class="ri-body-scan-fill" style="font-size: 50px;color: white;"></i>
+                                    <span>{{ __('home.section_10_card_6_title') }}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5">
+                    <div class="events-timer ml-15">
+                        <div class="event-img">
+                            <img src="assets/images/event-img.jpg" alt="Image">
+                        </div>
+
+                        <span>Next Event</span>
+
+                        <div id="timer">
+                            <div id="days">-365<span>Days</span></div>
+                            <div id="hours">21<span>Hours</span></div>
+                            <div id="minutes">01<span>Minutes</span></div>
+                            <div id="seconds">50<span>Seconds</span></div>
+                        </div>
+
+                        {{-- <a href="application.html" class="default-btn">
+                            Book now
+                            <i class="ri-arrow-right-line"></i>
+                        </a> --}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="application-submit-area" id="applicationform">
         <div class="container">
@@ -340,150 +504,65 @@
         </div>
     </section>
 
+    <section class="costing-area pt-100 pb-70">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 col-md-6">
+                    <div class="costing-content">
+                        <h2>{{ __('home.section_12_card_1_title') }}</h2>
+                    </div>
+                </div>
+                <div class="row col-lg-6">
 
-    <section class="find-courses-area pt-100 pb-100" id="information">
-        <div class="find-courses-bg">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-12">
-                        <div class="ml-15">
-                            <div class="row">
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="single-counter">
-                                        <i class="flaticon-graduated"></i>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-costing-card">
+                            <h5>{{ __('home.section_12_card_1_title') }}</h5>
+                            <span class="subtitle">{{ __('home.section_12_card_1_content') }}</span>
+                        </div>
+                    </div>
 
-                                        <div class="count-title">
-                                            <h2>$<span class="odometer odometer-auto-theme" data-count="3000">
-                                                    <div class="odometer-inside"><span class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">1</span></span></span></span></span><span
-                                                            class="odometer-formatting-mark">,</span><span
-                                                            class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">0</span></span></span></span></span><span
-                                                            class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">0</span></span></span></span></span><span
-                                                            class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">0</span></span></span></span></span>
-                                                    </div>
-                                                </span>
-                                            </h2>
-                                            <h4>{{ __('home.section_info_1_title') }}</h4>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="single-costing-card">
+                            <h3>{{ __('home.section_12_card_2_title') }}</h3>
+                            <span class="subtitle">{{ __('home.section_12_card_2_content') }}</span>
 
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="single-counter bg-172f41">
-                                        <i class="flaticon-teacher"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6">
+                        <div class="single-costing-card">
+                            <h3>{{ __('home.section_12_card_3_title') }}</h3>
+                            <span class="subtitle">{{ __('home.section_12_card_3_content') }}</span>
 
-                                        <div class="count-title">
-                                            <h2>
-                                                <span class="odometer odometer-auto-theme" data-count="100">
-                                                    <div class="odometer-inside"><span class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">6</span></span></span></span></span><span
-                                                            class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">4</span></span></span></span></span><span
-                                                            class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">0</span></span></span></span></span>
-                                                    </div>
-                                                </span>
-                                            </h2>
-                                            <h4>{{ __('home.section_info_2_title') }}</h4>
-                                            <br>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="single-counter bg-172f41">
-                                        <i class="flaticon-book-1"></i>
-
-                                        <div class="count-title">
-                                            <h2>$<span class="odometer odometer-auto-theme" data-count="1000000">
-                                                    <div class="odometer-inside"><span class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">5</span></span></span></span></span><span
-                                                            class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">4</span></span></span></span></span>
-                                                    </div>
-                                                </span>
-                                            </h2>
-                                            <h4>{{ __('home.section_info_3_title') }}</h4>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="col-lg-3 col-sm-6">
-                                    <div class="single-counter">
-                                        <i class="flaticon-graduation-cap"></i>
-
-                                        <div class="count-title">
-                                            <h2>
-                                                <span class="odometer odometer-auto-theme" data-count="400">
-                                                    <div class="odometer-inside"><span class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">2</span></span></span></span></span><span
-                                                            class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">6</span></span></span></span></span><span
-                                                            class="odometer-digit"><span
-                                                                class="odometer-digit-spacer">8</span><span
-                                                                class="odometer-digit-inner"><span
-                                                                    class="odometer-ribbon"><span
-                                                                        class="odometer-ribbon-inner"><span
-                                                                            class="odometer-value">9</span></span></span></span></span>
-                                                    </div>
-                                                </span>
-                                            </h2>
-                                            <h4>{{ __('home.section_info_4_title') }}</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+
+
+    {{-- <section class="application-submit-area" id="applicationform">
+        <div class="container">
+            <div class="application-submit-bg">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="application-submit-content">
+                            <h2>{{ __('home.section_application_title') }}</h2>
+                            <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
+                                {{ __('home.section_application_button') }}
+                                <i class="ri-arrow-right-line"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="application-submit-img">
+                            <img src="{{ asset('assets/images/application-submit-img.png') }}" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
 @endsection
