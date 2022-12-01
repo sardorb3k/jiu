@@ -326,7 +326,7 @@
 
                 <div class="col-lg-6">
                     <div class="campus-experience-slider owl-carousel owl-theme owl-loaded owl-drag">
-
+                        
 
 
                         <div class="owl-stage-outer">
@@ -370,7 +370,7 @@
 
                     <div class="col-lg-6">
                         <div class="application-submit-img">
-                            <img src="{{ asset('assets/images/banner/application.jpg') }}" alt="Image">
+                            <img src="{{ asset('assets/images/application-submit-img.png') }}" alt="Image">
                         </div>
                     </div>
                 </div>
