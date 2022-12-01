@@ -326,7 +326,7 @@
 
                 <div class="col-lg-6">
                     <div class="campus-experience-slider owl-carousel owl-theme owl-loaded owl-drag">
-                        
+
 
 
                         <div class="owl-stage-outer">
@@ -507,7 +507,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="application-submit-content">
-                            <h2>{{ __('home.section_application_title') }}</h2>
+                            <h3>{{ __('home.section_application_title') }}</h3>
                             <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
                                 {{ __('home.section_application_button') }}
                                 <i class="ri-arrow-right-line"></i>
@@ -559,7 +559,39 @@
         </div>
     </section>
 
+    <style>
+        .fade-in {
+            animation: fadeIn ease 2s;
+            -webkit-animation: fadeIn ease 2s;
+            -moz-animation: fadeIn ease 2s;
+            -o-animation: fadeIn ease 2s;
+            -ms-animation: fadeIn ease 2s;
+            }
+            @keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
 
+            @-moz-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+
+            @-webkit-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+
+            @-o-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+
+            @-ms-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+    </style>
     <script>
         $(function() {
             var curImg = 0;
@@ -579,8 +611,11 @@
                 $("#banner_image").attr("src", images[curImg]);
                 $("#banner_title").html(titles[curImg]);
                 // Image change animation
-                // -webkit-transition : all 1s ease-in-out;
-                $('#banner_image').css('transition', 'opacity 1s ease-in-out');
+                $("#banner_image").addClass("fade-in");
+                setTimeout(function() {
+                    $("#banner_image").removeClass("fade-in");
+                }, 1000);
+
                 if (curImg == images.length) {
                     curImg = 0;
                 } else {
