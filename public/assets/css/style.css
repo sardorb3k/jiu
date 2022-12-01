@@ -1889,6 +1889,11 @@ Application Submit Area Style
     margin-bottom: 40px;
 }
 
+.application-submit-content h3 {
+    font-size: 30px;
+    color: var(--white-color);
+    margin-bottom: 40px;
+}
 .application-submit-content .default-btn {
     background-color: var(--white-color);
     color: var(--optional-color);

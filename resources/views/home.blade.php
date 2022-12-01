@@ -34,42 +34,36 @@
 
                         <div class="col-lg-6">
                             <div class="banner-img">
-                                <img src="uploads/2.webp" id="banner_image" style="animation: fadeIn 5s;" alt="Image">
+                                <img src="assets/images/banner/banner_1.png" id="banner_image" class="animation-name: cf3FadeInOut;" alt="Image">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <script>
-            $(function() {
-                var curImg = 0;
-                var images = [
-                    'uploads/2.webp',
-                    'assets/images/about-img-3.jpg',
-                    'assets/images/about-img-2.jpg',
-                    'assets/images/banner/banner-bg-1.jpg',
-                ]
-                var titles = [
-                    '{{ __('home.description') }}',
-                    '{{ __('home.description2') }}',
-                    '{{ __('home.description3') }}',
-                    '{{ __('home.description4') }}',
-                ]
-                setInterval(function() {
-                    $("#banner_image").attr("src", images[curImg]);
-                    $("#banner_title").text(titles[curImg]);
-                    // Image change animation
-                    $("#banner_image").css("animation", "fadeOut 2s");
-                    if (curImg == images.length) {
-                        curImg = 0;
-                    } else {
-                        curImg++;
-                    }
-                    console.log(images);
-                }, 3000);
-            });
-        </script>
+        <style>
+            @keyframes cf4FadeInOut {
+                0% {
+                    opacity: 1;
+                }
+
+                17% {
+                    opacity: 1;
+                }
+
+                25% {
+                    opacity: 0;
+                }
+
+                92% {
+                    opacity: 0;
+                }
+
+                100% {
+                    opacity: 1;
+                }
+            }
+        </style>
         <ul class="social-link">
             @if ($system->site_facebook)
                 <li>
@@ -366,7 +360,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="application-submit-content">
-                            <h2>{{ __('home.section_application_8_title') }}</h2>
+                            <h3>{{ __('home.section_application_8_title') }}</h3>
                             <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
                                 {{ __('home.section_application_8_button') }}
                                 <i class="ri-arrow-right-line"></i>
@@ -376,7 +370,7 @@
 
                     <div class="col-lg-6">
                         <div class="application-submit-img">
-                            <img src="{{ asset('assets/images/application-submit-img.png') }}" alt="Image">
+                            <img src="{{ asset('assets/images/banner/application.jpg') }}" alt="Image">
                         </div>
                     </div>
                 </div>
@@ -566,6 +560,35 @@
     </section>
 
 
+    <script>
+        $(function() {
+            var curImg = 0;
+            var images = [
+                'assets/images/banner/banner_1.png',
+                'assets/images/japantravel.webp',
+                'assets/images/about-img-2.jpg',
+                'assets/images/grant-unviversity.webp',
+            ]
+            var titles = [
+                '{{ __('home.description') }}',
+                "{{ __('home.description2') }}",
+                '{{ __('home.description3') }}',
+                '{{ __('home.description4') }}',
+            ]
+            setInterval(function() {
+                $("#banner_image").attr("src", images[curImg]);
+                $("#banner_title").html(titles[curImg]);
+                // Image change animation
+                // -webkit-transition : all 1s ease-in-out;
+                $('#banner_image').css('transition', 'opacity 1s ease-in-out');
+                if (curImg == images.length) {
+                    curImg = 0;
+                } else {
+                    curImg++;
+                }
+            }, 5000);
+        });
+    </script>
     {{-- <section class="application-submit-area" id="applicationform">
         <div class="container">
             <div class="application-submit-bg">
