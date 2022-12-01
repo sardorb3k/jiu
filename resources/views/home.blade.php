@@ -10,7 +10,7 @@
                         <div class="col-lg-6">
                             <div class="banner-content">
                                 <span>{{ __('home.welcome') }}</span>
-                                <h1>{{ __('home.description') }}</h1>
+                                <h1 id="banner_title">{{ __('home.description') }}</h1>
 
                                 <div class="banner-btn">
                                     <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
@@ -34,14 +34,42 @@
 
                         <div class="col-lg-6">
                             <div class="banner-img">
-                                <img src="uploads/2.webp" style="animation: fadeIn 5s;" alt="Image">
+                                <img src="uploads/2.webp" id="banner_image" style="animation: fadeIn 5s;" alt="Image">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+        <script>
+            $(function() {
+                var curImg = 0;
+                var images = [
+                    'uploads/2.webp',
+                    'assets/images/about-img-3.jpg',
+                    'assets/images/about-img-2.jpg',
+                    'assets/images/banner/banner-bg-1.jpg',
+                ]
+                var titles = [
+                    '{{ __('home.description') }}',
+                    '{{ __('home.description2') }}',
+                    '{{ __('home.description3') }}',
+                    '{{ __('home.description4') }}',
+                ]
+                setInterval(function() {
+                    $("#banner_image").attr("src", images[curImg]);
+                    $("#banner_title").text(titles[curImg]);
+                    // Image change animation
+                    $("#banner_image").css("animation", "fadeOut 2s");
+                    if (curImg == images.length) {
+                        curImg = 0;
+                    } else {
+                        curImg++;
+                    }
+                    console.log(images);
+                }, 3000);
+            });
+        </script>
         <ul class="social-link">
             @if ($system->site_facebook)
                 <li>
@@ -366,7 +394,7 @@
                 <div class="col-lg-5 col-md-6">
                     <div class="single-blog">
                         <a href="blog-details.html" class="blog-img">
-                            <img src="assets/images/workstudy.jpg" alt="Image">
+                            <img src="assets/images/japantravel.webp" alt="Image">
                         </a>
 
                         <div class="blog-content">
@@ -385,7 +413,7 @@
                 <div class="col-lg-5 col-md-6">
                     <div class="single-blog">
                         <a href="blog-details.html" class="blog-img">
-                            <img src="assets/images/worktravel.webp" alt="Image">
+                            <img src="assets/images/usatravel.jpg" alt="Image">
                         </a>
 
                         <div class="blog-content">
@@ -461,10 +489,10 @@
                             <img src="assets/images/event-img.jpg" alt="Image">
                         </div>
 
-                        <span>Next Event</span>
+                        <span>Qabulga oz qoldi</span>
 
                         <div id="timer">
-                            <div id="days">-365<span>Days</span></div>
+                            <div id="days">13<span>Days</span></div>
                             <div id="hours">21<span>Hours</span></div>
                             <div id="minutes">01<span>Minutes</span></div>
                             <div id="seconds">50<span>Seconds</span></div>
@@ -479,7 +507,6 @@
             </div>
         </div>
     </section>
-
     <section class="application-submit-area" id="applicationform">
         <div class="container">
             <div class="application-submit-bg">
@@ -504,42 +531,39 @@
         </div>
     </section>
 
-    <section class="costing-area pt-100 pb-70">
+    <section class="simple-steps-area pt-100 pb-70">
         <div class="container">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-4 col-md-6">
-                    <div class="costing-content">
-                        <h2>{{ __('home.section_12_card_1_title') }}</h2>
+            <div class="section-title">
+                <h2>{{ __('home.section_12_card_1_title') }}</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-simple-steps icon-bg-style">
+                        <i class="flaticon-search"></i>
+                        <h3>{{ __('home.section_12_card_1_title') }}</h3>
+                        <p>{{ __('home.section_12_card_1_content') }}</p>
                     </div>
                 </div>
-                <div class="row col-lg-6">
 
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single-costing-card">
-                            <h5>{{ __('home.section_12_card_1_title') }}</h5>
-                            <span class="subtitle">{{ __('home.section_12_card_1_content') }}</span>
-                        </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-simple-steps icon-bg-style">
+                        <i class="flaticon-choosing"></i>
+                        <h3>{{ __('home.section_12_card_2_title') }}</h3>
+                        <p>{{ __('home.section_12_card_2_title') }}</p>
                     </div>
+                </div>
 
-                    <div class="col-lg-6 col-md-6">
-                        <div class="single-costing-card">
-                            <h3>{{ __('home.section_12_card_2_title') }}</h3>
-                            <span class="subtitle">{{ __('home.section_12_card_2_content') }}</span>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-6">
-                        <div class="single-costing-card">
-                            <h3>{{ __('home.section_12_card_3_title') }}</h3>
-                            <span class="subtitle">{{ __('home.section_12_card_3_content') }}</span>
-
-                        </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="single-simple-steps icon-bg-style">
+                        <i class="flaticon-contract"></i>
+                        <h3>{{ __('home.section_12_card_3_title') }}</h3>
+                        <p>{{ __('home.section_12_card_3_title') }}</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 
 
     {{-- <section class="application-submit-area" id="applicationform">

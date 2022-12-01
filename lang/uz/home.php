@@ -3,7 +3,10 @@
 return [
     'title' => 'JIU | Japan International University',
     'welcome' => 'JIUga xush kelibsiz',
-    'description' => 'Kelajakni qurish uchun jahon darajasidagi ta\'lim qo\'llaniladi',
+    'description' => 'Kelajakni qurish uchun jahon darajasidagi ta’lim qo’llaniladi',
+    'description2' => 'Work & Study loyihasi orqali o’qishni Yaponiyada davom ettiring',
+    'description3' => 'JIU universitetini bitirib Yaponiyada kafolatlangan ishga ega bo’ling',
+    'description4' => 'Grant asosida o’qishga kiring',
     'application' => 'Hozir murojaat qiling',
     'about' => 'Biz haqimizda',
     'contact' => 'Biz bilan bog\'lanish',

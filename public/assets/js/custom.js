@@ -28,32 +28,29 @@
 		margin: 30,
 		nav: true,
 		dots: false,
+        // autoWidth:'300px',
 		autoplay: false,
+		// Height Auto
+		autoHeight: false,
+
 		smartSpeed: 1000,
 		autoplayHoverPause: true,
+        responsiveClass:true,
 		navText: [
 			"<i class='ri-arrow-left-line'></i>",
 			"<i class='ri-arrow-right-line'></i>",
 		],
 		responsive: {
-			0: {
-				items: 1,
+			0:{
+				items:1
 			},
-			414: {
-				items: 1,
+			600:{
+				items:2
 			},
-			576: {
-				items: 2,
-			},
-			768: {
-				items: 2,
-			},
-			992: {
-				items: 3,
-			},
-			1200: {
-				items: 4,
-			},
+			1000:{
+				items:3
+			}
+
 		},
 	});
 
@@ -113,7 +110,7 @@
 
 	// Count Time JS
 	function makeTimer() {
-		var endTime = new Date("november  30, 2021 17:00:00 PDT");
+		var endTime = new Date("december  13, 2022 00:00:00 PDT");
 		var endTime = (Date.parse(endTime)) / 1000;
 		var now = new Date();
 		var now = (Date.parse(now) / 1000);
@@ -125,10 +122,10 @@
 		if (hours < "10") { hours = "0" + hours; }
 		if (minutes < "10") { minutes = "0" + minutes; }
 		if (seconds < "10") { seconds = "0" + seconds; }
-		$("#days").html(days + "<span>Days</span>");
-		$("#hours").html(hours + "<span>Hours</span>");
-		$("#minutes").html(minutes + "<span>Minutes</span>");
-		$("#seconds").html(seconds + "<span>Seconds</span>");
+		$("#days").html(days + "<span>Kun</span>");
+		$("#hours").html(hours + "<span>Soat</span>");
+		$("#minutes").html(minutes + "<span>Daqiqa</span>");
+		$("#seconds").html(seconds + "<span>Soniya</span>");
 	}
 	setInterval(function() { makeTimer(); }, 300);
 
