@@ -42,29 +42,6 @@
                 </div>
             </div>
         </div>
-        <style>
-            @keyframes cf4FadeInOut {
-                0% {
-                    opacity: 1;
-                }
-
-                17% {
-                    opacity: 1;
-                }
-
-                25% {
-                    opacity: 0;
-                }
-
-                92% {
-                    opacity: 0;
-                }
-
-                100% {
-                    opacity: 1;
-                }
-            }
-        </style>
         <ul class="social-link">
             @if ($system->site_facebook)
                 <li>
@@ -529,7 +506,7 @@
 
             <div class="row">
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-simple-steps icon-bg-style">
+                    <div class="single-simple-steps icon-bg-style card-simple">
                         <i class="flaticon-search"></i>
                         <h3>{{ __('home.section_12_card_1_title') }}</h3>
                         <p>{{ __('home.section_12_card_1_content') }}</p>
@@ -537,7 +514,7 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-simple-steps icon-bg-style">
+                    <div class="single-simple-steps icon-bg-style card-simple">
                         <i class="flaticon-choosing"></i>
                         <h3>{{ __('home.section_12_card_2_title') }}</h3>
                         <p>{{ __('home.section_12_card_2_title') }}</p>
@@ -545,7 +522,7 @@
                 </div>
 
                 <div class="col-lg-4 col-sm-6">
-                    <div class="single-simple-steps icon-bg-style">
+                    <div class="single-simple-steps icon-bg-style card-simple">
                         <i class="flaticon-contract"></i>
                         <h3>{{ __('home.section_12_card_3_title') }}</h3>
                         <p>{{ __('home.section_12_card_3_title') }}</p>
@@ -563,7 +540,9 @@
             -o-animation: fadeIn ease 2s;
             -ms-animation: fadeIn ease 2s;
         }
-
+        .card-simple {
+            height: 360px;
+        }
         @keyframes fadeIn {
             0% {
                 opacity: 0;
