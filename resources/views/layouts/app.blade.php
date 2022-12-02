@@ -7,7 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
-
+    <meta name="description"
+        content="Japanese International University (JIU) - Yapon standartlariga asoslangan xalqaro universitet. Qo'ng'iroq qiling, to'liq ma'lumot oling: +998 (71) 203-02-20" />
+    <meta name="keywords"
+        content="university, universitet, institut, japan, yaponiya, japanese, international, xalqaro, o'qish, diplom, business, biznes, accounting, finance, buxgalteriya, moliya, pedagogika, turizm, tourism, it, dasturlash, programming, teaching, best, top" />
+    <meta property="og:url" content="jiuuni.uz" />
+    <meta property="og:title" content="Japanese International University (JIU)" />
+    <meta property="og:description"
+        content="Japanese International University (JIU) - Yapon standartlariga asoslangan xalqaro universitet. Qo'ng'iroq qiling, to'liq ma'lumot oling: +998 (71) 203-02-20" />
+    <meta property="og:type" content="website" />
+    <link rel="canonical" href="jiuuni.uz">
     <!-- Bootstrap Min CSS -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!-- Owl Theme Default Min CSS -->
@@ -35,7 +44,27 @@
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.inputmask.min.js') }}"></script>
     {{-- AMOCRM --}}
-    <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"1038854",hash:"ab66dbb3b9efea875e5f8284c5af1411",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_1038854" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1669357254"></script>
+    <script>
+        ! function(a, m, o, c, r, m) {
+            a[o + c] = a[o + c] || {
+                setMeta: function(p) {
+                    this.params = (this.params || []).concat([p])
+                }
+            }, a[o + r] = a[o + r] || function(f) {
+                a[o + r].f = (a[o + r].f || []).concat([f])
+            }, a[o + r]({
+                id: "1038854",
+                hash: "ab66dbb3b9efea875e5f8284c5af1411",
+                locale: "ru"
+            }), a[o + m] = a[o + m] || function(f, k) {
+                a[o + m].f = (a[o + m].f || []).concat([
+                    [f, k]
+                ])
+            }
+        }(window, 0, "amo_forms_", "params", "load", "loaded");
+    </script>
+    <script id="amoforms_script_1038854" async="async" charset="utf-8"
+        src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1669357254"></script>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('favicon.ico') }}">
     <!-- Title -->
