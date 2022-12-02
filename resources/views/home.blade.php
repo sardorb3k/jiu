@@ -485,7 +485,7 @@
                         </div>
 
                         <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
-                            Talaba bo'lish
+                            TALABA BO'LING
                         </a>
 
                         {{-- <a href="application.html" class="default-btn">

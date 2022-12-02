@@ -67,7 +67,7 @@
     <div class="preloader">
         <div class="loader">
             <div class="loader-content">
-                <h5>Japan International University</h5>
+                <h5>JAPANESE International University</h5>
                 <p>Loading...</p>
             </div>
         </div>
