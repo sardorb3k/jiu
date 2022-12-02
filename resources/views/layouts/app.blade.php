@@ -35,7 +35,27 @@
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.inputmask.min.js') }}"></script>
     {{-- AMOCRM --}}
-    <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"1038854",hash:"ab66dbb3b9efea875e5f8284c5af1411",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_1038854" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1669357254"></script>
+    <script>
+        ! function(a, m, o, c, r, m) {
+            a[o + c] = a[o + c] || {
+                setMeta: function(p) {
+                    this.params = (this.params || []).concat([p])
+                }
+            }, a[o + r] = a[o + r] || function(f) {
+                a[o + r].f = (a[o + r].f || []).concat([f])
+            }, a[o + r]({
+                id: "1038854",
+                hash: "ab66dbb3b9efea875e5f8284c5af1411",
+                locale: "ru"
+            }), a[o + m] = a[o + m] || function(f, k) {
+                a[o + m].f = (a[o + m].f || []).concat([
+                    [f, k]
+                ])
+            }
+        }(window, 0, "amo_forms_", "params", "load", "loaded");
+    </script>
+    <script id="amoforms_script_1038854" async="async" charset="utf-8"
+        src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1669357254"></script>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('favicon.ico') }}">
     <!-- Title -->
@@ -45,8 +65,11 @@
 <body>
     <!-- Start Preloader Area -->
     <div class="preloader">
-        <div class="lds-ripple">
-            <div class="pl-flip-1 pl-flip-2"></div>
+        <div class="loader">
+            <div class="loader-content">
+                <h5>Japan International University</h5>
+                <p>Loading...</p>
+            </div>
         </div>
     </div>
     <!-- End Preloader Area -->
@@ -63,7 +86,46 @@
         <i class="ri-arrow-up-s-fill"></i>
     </div>
     <!-- End Go Top Area -->
+    <style>
+        .loader {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            bottom: 0px;
+            right: 0px;
+            width: 100%;
+            height: 100%;
+            overflow-y: hidden;
+            overflow-x: hidden;
+            color: white;
+            text-transform: uppercase
+        }
 
+        .loader-content h5 {
+            color: white;
+        }
+
+        .loader-content {
+            width: 100%;
+            height: 100%;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -moz-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -moz-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
     <!-- Jquery Min JS -->
     <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>

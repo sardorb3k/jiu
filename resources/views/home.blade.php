@@ -34,7 +34,8 @@
 
                         <div class="col-lg-6">
                             <div class="banner-img">
-                                <img src="assets/images/banner/banner_1.png" id="banner_image" class="animation-name: cf3FadeInOut;" alt="Image">
+                                <img src="assets/images/banner/banner_1.png" id="banner_image"
+                                    class="animation-name: cf3FadeInOut;" alt="Image">
                             </div>
                         </div>
                     </div>
@@ -338,7 +339,7 @@
                                         <p>{{ __('home.section_7_content') }}</p>
                                         <br>
                                         <br>
-                                        <a href="campus-experience.html" class="read-more">
+                                        <a href="#" class="read-more">
                                             {{ __('home.section_7_button') }}
                                             <i class="ri-arrow-right-line"></i>
                                         </a>
@@ -477,20 +478,15 @@
                     </div>
                 </div>
 
-                <div class="col-lg-5">
+                <div class="col-lg-5" style="margin-top: 12%">
                     <div class="events-timer ml-15">
                         <div class="event-img">
                             <img src="assets/images/event-img.jpg" alt="Image">
                         </div>
 
-                        <span>Qabulga oz qoldi</span>
-
-                        <div id="timer">
-                            <div id="days">13<span>Days</span></div>
-                            <div id="hours">21<span>Hours</span></div>
-                            <div id="minutes">01<span>Minutes</span></div>
-                            <div id="seconds">50<span>Seconds</span></div>
-                        </div>
+                        <a href="https://forms.amocrm.ru/rltmmwd" class="default-btn">
+                            Talaba bo'lish
+                        </a>
 
                         {{-- <a href="application.html" class="default-btn">
                             Book now
@@ -566,31 +562,57 @@
             -moz-animation: fadeIn ease 2s;
             -o-animation: fadeIn ease 2s;
             -ms-animation: fadeIn ease 2s;
-            }
-            @keyframes fadeIn {
-            0% {opacity:0;}
-            100% {opacity:1;}
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
             }
 
-            @-moz-keyframes fadeIn {
-            0% {opacity:0;}
-            100% {opacity:1;}
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-moz-keyframes fadeIn {
+            0% {
+                opacity: 0;
             }
 
-            @-webkit-keyframes fadeIn {
-            0% {opacity:0;}
-            100% {opacity:1;}
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-webkit-keyframes fadeIn {
+            0% {
+                opacity: 0;
             }
 
-            @-o-keyframes fadeIn {
-            0% {opacity:0;}
-            100% {opacity:1;}
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @-o-keyframes fadeIn {
+            0% {
+                opacity: 0;
             }
 
-            @-ms-keyframes fadeIn {
-            0% {opacity:0;}
-            100% {opacity:1;}
+            100% {
+                opacity: 1;
             }
+        }
+
+        @-ms-keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
     </style>
     <script>
         $(function() {

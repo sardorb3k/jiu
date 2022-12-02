@@ -1,8 +1,8 @@
 <?php
 return [
     '404' => [
-        'title' => 'Sahifa topilmadi',
-        'description' => 'Siz qidirayotgan sahifa topilmadi.',
+        'title' => 'Tez kunda',
+        'description' => 'Siz qidirayotgan sahifa yaratilmoqda.',
         'link' => 'Bosh sahifaga qaytish',
     ],
     '503' => [
