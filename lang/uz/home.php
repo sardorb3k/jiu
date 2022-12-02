@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'JIU | Japan International University',
+    'title' => 'JIU | Japonese International University',
     'welcome' => 'JIUga xush kelibsiz',
     'description' => 'Kelajakni qurish uchun jahon darajasidagi ta’lim qo’llaniladi',
     'description2' => 'Work & Study loyihasi orqali o’qishni Yaponiyada davom ettiring',
