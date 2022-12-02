@@ -35,27 +35,7 @@
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.inputmask.min.js') }}"></script>
     {{-- AMOCRM --}}
-    <script>
-        ! function(a, m, o, c, r, m) {
-            a[o + c] = a[o + c] || {
-                setMeta: function(p) {
-                    this.params = (this.params || []).concat([p])
-                }
-            }, a[o + r] = a[o + r] || function(f) {
-                a[o + r].f = (a[o + r].f || []).concat([f])
-            }, a[o + r]({
-                id: "1038854",
-                hash: "ab66dbb3b9efea875e5f8284c5af1411",
-                locale: "ru"
-            }), a[o + m] = a[o + m] || function(f, k) {
-                a[o + m].f = (a[o + m].f || []).concat([
-                    [f, k]
-                ])
-            }
-        }(window, 0, "amo_forms_", "params", "load", "loaded");
-    </script>
-    <script id="amoforms_script_1038854" async="async" charset="utf-8"
-        src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1669357254"></script>
+    <script>!function(a,m,o,c,r,m){a[o+c]=a[o+c]||{setMeta:function(p){this.params=(this.params||[]).concat([p])}},a[o+r]=a[o+r]||function(f){a[o+r].f=(a[o+r].f||[]).concat([f])},a[o+r]({id:"1038854",hash:"ab66dbb3b9efea875e5f8284c5af1411",locale:"ru"}),a[o+m]=a[o+m]||function(f,k){a[o+m].f=(a[o+m].f||[]).concat([[f,k]])}}(window,0,"amo_forms_","params","load","loaded");</script><script id="amoforms_script_1038854" async="async" charset="utf-8" src="https://forms.amocrm.ru/forms/assets/js/amoforms.js?1669357254"></script>
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="{{ asset('favicon.ico') }}">
     <!-- Title -->

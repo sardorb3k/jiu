@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title' => 'JIU | Japan International University',
+    'title' => 'JIU | Japonese International University',
     'welcome' => 'Добро пожаловать в JIU',
     'description' => 'Образование мирового уровня применимо для построения будущего',
     'application' => 'Применить сейчас',
