@@ -104,6 +104,10 @@
 
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
+                                        <a href="{{ url('/page/examination-application') }}"
+                                            class="nav-link">{{ __('menu.examination_application') }}</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a href="{{ url('/page/examination-procedure') }}"
                                             class="nav-link">{{ __('menu.examination_procedure') }}</a>
                                     </li>
@@ -123,10 +127,6 @@
                                         <a href="{{ url('/page/examination-verification') }}"
                                             class="nav-link">{{ __('menu.examination_verification') }}</a>
                                     </li>
-                                    <li class="nav-item">
-                                        <a href="{{ url('/page/examination-payment') }}"
-                                            class="nav-link">{{ __('menu.examination_payment') }}</a>
-                                    </li>
                                 </ul>
                             </li>
 
@@ -142,24 +142,84 @@
                                             class="nav-link">{{ __('menu.admission_apply') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/foundation-programme') }}"
-                                            class="nav-link">{{ __('menu.admission_foundation') }}</a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a href="{{ url('/page/foundationin-business') }}"
                                             class="nav-link">{{ __('menu.admission_foundation_business') }}</a>
                                     </li>
                                     <li class="nav-item">
+                                        <a href="{{ url('/page/foundation-programme') }}"
+                                            class="nav-link">{{ __('menu.admission_fees') }}</a>
+                                    </li>
+                                    <li class="nav-item">
                                         <a href="{{ url('/page/foundationin-business') }}"
-                                            class="nav-link">{{ __('menu.admission_jiu_academy') }}</a>
+                                            class="nav-link">{{ __('menu.admisson_direct') }}</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    {{ __('menu.undergraduate') }}
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="{{ url('/page/admission') }}"
+                                            class="nav-link">{{ __('menu.undergraduate_prefoundation') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/scholarship') }}"
-                                            class="nav-link">{{ __('menu.admission_scholarship') }}</a>
+                                        <a href="{{ url('/page/foundationin-business') }}"
+                                            class="nav-link">{{ __('menu.undergraduate_fundation') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/english-language-certificates-equivalents') }}"
-                                            class="nav-link">{{ __('menu.admission_english_lang_cert') }}</a>
+                                        <a href="{{ url('/page/foundation-programme') }}"
+                                            class="nav-link">{{ __('menu.undergraduate_businessmanagement') }}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('/page/foundationin-business') }}"
+                                            class="nav-link">{{ __('menu.undergraduate_finance') }}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('/page/foundationin-business') }}"
+                                            class="nav-link">{{ __('menu.undergraduate_it') }}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('/page/foundationin-business') }}"
+                                            class="nav-link">{{ __('menu.undergraduate_pedagogy') }}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('/page/foundationin-business') }}"
+                                            class="nav-link">{{ __('menu.undergraduate_tourism') }}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('/page/foundationin-business') }}"
+                                            class="nav-link">{{ __('menu.undergraduate_japan') }}</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">
+                                    {{ __('menu.opportunites') }}
+                                    <i class="ri-arrow-down-s-line"></i>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item">
+                                        <a href="{{ url('/#about') }}"
+                                            class="nav-link">{{ __('menu.opportunites_life') }}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('/page/executive-council') }}"
+                                            class="nav-link">{{ __('menu.opportunites_company') }}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('/page/academic-council') }}"
+                                            class="nav-link">{{ __('menu.opportunites_workstudyjapan') }}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('/#ourmission') }}"
+                                            class="nav-link">{{ __('menu.opportunites_worktravel_usa') }}</a>
                                     </li>
                                 </ul>
                             </li>
@@ -176,10 +236,6 @@
                                             class="nav-link">{{ __('menu.about_why') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/#ourmission') }}"
-                                            class="nav-link">{{ __('menu.about_license') }}</a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a href="{{ url('/page/executive-council') }}"
                                             class="nav-link">{{ __('menu.about_executive') }}</a>
                                     </li>
@@ -187,13 +243,19 @@
                                         <a href="{{ url('/page/academic-council') }}"
                                             class="nav-link">{{ __('menu.about_academic') }}</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('/#ourmission') }}"
+                                            class="nav-link">{{ __('menu.about_license') }}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('jobs') }}"
+                                            class="nav-link">{{ __('menu.jobs_vacancies') }}</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="{{ route('contact') }}"
+                                            class="nav-link">{{ __('menu.contact') }}</a>
+                                    </li>
                                 </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('jobs') }}" class="nav-link">{{ __('menu.jobs_vacancies') }}</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="{{ route('contact') }}" class="nav-link">{{ __('menu.contact') }}</a>
                             </li>
                             {{-- <li class="nav-item">
                                 <a href="{{ url('/induction') }}" class="nav-link">{{ __('menu.induction') }}</a>

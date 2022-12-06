@@ -7,8 +7,7 @@
             <div class="row">
                 <div class="col-lg-7">
                     <div class="map-area">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3077.5968400730185!2d-119.76188708437041!3d39.523588017394154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80993f3dfa5eeaf5%3A0x70954ca5a06c2014!2s1312%20Greg%20St%2C%20Sparks%2C%20NV%2089431%2C%20USA!5e0!3m2!1sen!2sbd!4v1615354573837!5m2!1sen!2sbd"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1846.1191212049573!2d66.9955395!3d39.645253!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f4d1f690aaca6b1%3A0xa5931e4fab472ef7!2sJapanese%20International%20University!5e1!3m2!1sen!2s!4v1670334981207!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
