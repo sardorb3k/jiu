@@ -489,7 +489,7 @@ Navbar Responsive Area Style
     position: relative;
   }
   .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav {
-    margin-top: 50px;
+    margin-top: 75px;
     background-color: var(--white-color);
   }
   .mobile-responsive-nav .mobile-responsive-menu.mean-container .mean-nav ul {

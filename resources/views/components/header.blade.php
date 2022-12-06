@@ -104,7 +104,7 @@
 
                                 <ul class="dropdown-menu">
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/examination-application') }}"
+                                        <a href="{{ url('https://forms.amocrm.ru/rltmmwd') }}"
                                             class="nav-link">{{ __('menu.examination_application') }}</a>
                                     </li>
                                     <li class="nav-item">
@@ -142,8 +142,8 @@
                                             class="nav-link">{{ __('menu.admission_apply') }}</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="{{ url('/page/admission_foundation_business') }}"
-                                            class="nav-link">{{ __('menu.admission_foundation_business') }}</a>
+                                        <a href="{{ url('/page/admission_scholarship') }}"
+                                            class="nav-link">{{ __('menu.admission_scholarship') }}</a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="{{ url('/page/admission_fees') }}"
