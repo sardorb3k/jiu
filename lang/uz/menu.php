@@ -14,7 +14,7 @@ return [
     'admission_apply' => 'Qanday murojaat qilish kerak',
     'admission_scholarship' => 'Grantlar',
     'admission_fees' => 'O’qish To’lovlari',
-    'admisson_direct' => 'To\'g\'ridan-to\'g\'ri uzatish',
+    'admisson_direct' => 'O’qishni  Ko’shirish',
     'undergraduate' => 'Bakalavr',
     'undergraduate_prefoundation' => 'Level 1 - Prefoundation',
     'undergraduate_fundation' => 'Level 2 - Foundation',
@@ -35,6 +35,6 @@ return [
     'about_license' => 'LITSENZIYA ',
     'about_executive' => 'Ijrochi Direktorlar',
     'about_academic' => 'Akademik Bo’lim',
-    'jobs_vacancies' => 'Bo\'sh ish o\'rinlari',
-    'contact' => 'Biz bilan bog\'lanish',
+    'jobs_vacancies' => 'Bo’sh ish o’rinlari',
+    'contact' => 'Biz bilan bog’lanish',
 ];

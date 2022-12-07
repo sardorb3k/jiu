@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', __('Not Found'))
+@section('title', __('JIU - Japanese International University'))
 @section('code', '404')
 @section('message', __('Not Found'))
 
