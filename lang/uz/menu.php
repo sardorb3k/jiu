@@ -35,6 +35,7 @@ return [
     'about_license' => 'LITSENZIYA ',
     'about_executive' => 'Ijrochi Direktorlar',
     'about_academic' => 'Akademik Bo’lim',
+    'about_admisson_english_equivalents' => 'INGILIZ TILI SERTIFIKATLARI EKVIVALENTI',
     'jobs_vacancies' => 'Bo’sh ish o’rinlari',
     'contact' => 'Biz bilan bog’lanish',
 ];

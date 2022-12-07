@@ -153,6 +153,10 @@
                                         <a href="{{ url('/page/admisson_direct') }}"
                                             class="nav-link">{{ __('menu.admisson_direct') }}</a>
                                     </li>
+                                    <li class="nav-item">
+                                        <a href="{{ url('/page/english-language-certificates-equivalents') }}"
+                                            class="nav-link">{{ __('menu.admisson_english_equivalents') }}</a>
+                                    </li>
                                 </ul>
                             </li>
 

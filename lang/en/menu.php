@@ -35,6 +35,7 @@ return [
     'about_license' => 'Licenses ',
     'about_executive' => 'Executive council',
     'about_academic' => 'Academic council',
+    'about_admisson_english_equivalents' => 'ENGLISH LANGUAGE CERTIFICATES EQUIVALENTS',
     'jobs_vacancies' => 'Job vacancies',
     'contact' => 'Contact us',
 ];
