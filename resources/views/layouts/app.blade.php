@@ -95,47 +95,6 @@
         <i class="ri-arrow-up-s-fill"></i>
     </div>
     <!-- End Go Top Area -->
-    <style>
-        .loader {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            bottom: 0px;
-            right: 0px;
-            width: 100%;
-            height: 100%;
-            overflow-y: hidden;
-            overflow-x: hidden;
-            color: white;
-            text-transform: uppercase
-        }
-
-        .loader-content h5 {
-            text-align: center;
-            color: white;
-        }
-
-        .loader-content {
-            width: 100%;
-            height: 100%;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            display: flex;
-            -webkit-box-pack: center;
-            -moz-box-pack: center;
-            -ms-flex-pack: center;
-            -webkit-justify-content: center;
-            justify-content: center;
-            -webkit-box-align: center;
-            -moz-box-align: center;
-            -ms-flex-align: center;
-            -webkit-align-items: center;
-            align-items: center;
-            flex-direction: column;
-        }
-    </style>
     <!-- Jquery Min JS -->
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <!-- Bootstrap Bundle Min JS -->
