@@ -10,7 +10,7 @@
                       </a>
                       <p>{{ $system->site_description }}</p>
                       <ul class="social-icon">
-                          <li>
+                          <li style="display: block">
                               <span>{{ __('site.follow') }}</span>
                           </li>
                           @if ($system->site_facebook)
@@ -31,6 +31,13 @@
                               <li>
                                   <a href="{{ $system->site_telegram }}" target="_blank">
                                       <i class="ri-telegram-line"></i>
+                                  </a>
+                              </li>
+                          @endif
+                          @if ($system->site_youtube)
+                              <li>
+                                  <a href="{{ $system->site_youtube }}" target="_blank">
+                                      <i class="ri-youtube-line"></i>
                                   </a>
                               </li>
                           @endif
