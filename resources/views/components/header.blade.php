@@ -155,7 +155,7 @@
                                     </li>
                                     <li class="nav-item">
                                         <a href="{{ url('/page/english-language-certificates-equivalents') }}"
-                                            class="nav-link">{{ __('menu.admisson_english_equivalents') }}</a>
+                                            class="nav-link">{{ __('menu.about_admisson_english_equivalents') }}</a>
                                     </li>
                                 </ul>
                             </li>
