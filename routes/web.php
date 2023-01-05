@@ -27,12 +27,12 @@ Route::group(['as' => 'dashboard.', 'prefix' => 'dashboard'], function () {
 
     // Pages Routes
     Route::resource('pages', App\Http\Controllers\PagesController::class)->middleware('roles:admin');
-    Route::resource('voucher', App\Http\Controllers\StudentsController::class)->middleware('roles:admin,voucher');
     // System get
     Route::get('/system', 'App\Http\Controllers\SystemController@index')->name('system.index')->middleware('auth', 'roles:admin');
     // System update
     Route::put('/system', 'App\Http\Controllers\SystemController@update')->name('system.update')->middleware('auth', 'roles:admin');
 });
+Route::resource('/voucher', App\Http\Controllers\StudentsController::class);
 
 // Page Routes
 Route::get('/page/{slug}', 'App\Http\Controllers\PageController@index')->name('page.index');
