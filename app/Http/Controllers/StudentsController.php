@@ -40,7 +40,7 @@ class StudentsController extends Controller
             $fpdi->SetFont("montserrat", "", 7);
             $fpdi->SetTextColor(255, 255, 255);
 
-            $fpdi->RotatedText(203, 21, strtoupper("$ps $pn"), 90);
+            $fpdi->RotatedText(203, 23, strtoupper("$ps $pn"), 90);
             $fpdi->RotatedText(203, 92, strtoupper($fullname), 90);
         }
 

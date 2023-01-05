@@ -23,7 +23,7 @@
                                         <div class="toggle-content">
                                             <ul class="btn-toolbar gx-1">
                                                 <li>
-                                                    <a href="{{ route('dashboard.students.create') }}"
+                                                    <a href="{{ route('dashboard.voucher.create') }}"
                                                         class="btn btn-trigger btn-icon">
                                                         <em class="icon ni ni-plus"></em>
                                                     </a>
@@ -47,7 +47,7 @@
                                 <div class="nk-tb-col">
                                     <div class="user-card">
                                         <div class="user-name">
-                                            <a href="{{ route('dashboard.students.show', $page->id) }}">
+                                            <a href="{{ route('dashboard.voucher.show', $page->id) }}">
                                                 <span class="tb-lead">
                                                     {{ $page->fullname }}
                                                 </span></a>
@@ -58,7 +58,7 @@
                                     <ul class="nk-tb-actions gx-2">
                                         <li>
 
-                                            <form action="{{ route('dashboard.students.destroy', $page->id) }}" method="POST">
+                                            <form action="{{ route('dashboard.voucher.destroy', $page->id) }}" method="POST">
                                                 @csrf
                                                 @method('DELETE')
                                                 <a href="#"

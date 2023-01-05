@@ -27,7 +27,7 @@ Route::group(['as' => 'dashboard.', 'prefix' => 'dashboard'], function () {
 
     // Pages Routes
     Route::resource('pages', App\Http\Controllers\PagesController::class)->middleware('roles:admin');
-    Route::resource('students', App\Http\Controllers\StudentsController::class)->middleware('roles:admin');
+    Route::resource('voucher', App\Http\Controllers\StudentsController::class)->middleware('roles:admin');
     // System get
     Route::get('/system', 'App\Http\Controllers\SystemController@index')->name('system.index')->middleware('auth', 'roles:admin');
     // System update

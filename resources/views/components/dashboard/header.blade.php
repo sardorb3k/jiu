@@ -50,6 +50,11 @@
                                             </li>
                                         </ul><!-- .nk-menu-sub -->
                                     </li><!-- .nk-menu-item -->
+                                    <li class="nk-menu-item has-sub">
+                                        <a href="{{ route('dashboard.voucher.create') }}" class="nk-menu-link">
+                                            <span class="nk-menu-text">Voucher</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
                                 @endif
                             </ul><!-- .nk-menu -->
                         </div><!-- .nk-header-menu -->
