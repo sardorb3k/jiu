@@ -47,11 +47,6 @@ class StudentsController extends Controller
         return $fpdi->Output($outputFilePath, 'F');
     }
 
-    // public function index()
-    // {
-    //     $pages = Student::paginate(10);
-    //     return view('dashboard.students.index', compact('pages'));
-    // }
 
     public function create()
     {

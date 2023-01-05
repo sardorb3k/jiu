@@ -11,7 +11,7 @@
     <div class="nk-block nk-block-lg">
         <div class="card card-bordered">
             <div class="card-inner">
-                <form method="POST" action="{{ route('dashboard.voucher.store') }}" class="form-validate"
+                <form method="POST" target="_blank" action="{{ route('dashboard.voucher.store') }}" class="form-validate"
                     novalidate="novalidate" method="post" enctype="multipart/form-data">
                     @csrf
                     <span class="preview-title-lg overline-title">Fullname</span>
@@ -53,7 +53,7 @@
                     <div class="card-inner border-top">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <button type="submit" class="btn btn-lg btn-primary">Print</button>
+                                <button type="submit"  class="btn btn-lg btn-primary">Print</button>
                             </div>
                         </div>
                     </div>
