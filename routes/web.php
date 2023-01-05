@@ -32,7 +32,7 @@ Route::group(['as' => 'dashboard.', 'prefix' => 'dashboard'], function () {
     // System update
     Route::put('/system', 'App\Http\Controllers\SystemController@update')->name('system.update')->middleware('auth', 'roles:admin');
 });
-Route::resource('/voucher', App\Http\Controllers\StudentsController::class);
+Route::resource('get-voucher', App\Http\Controllers\StudentsController::class);
 
 // Page Routes
 Route::get('/page/{slug}', 'App\Http\Controllers\PageController@index')->name('page.index');

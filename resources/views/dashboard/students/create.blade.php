@@ -19,7 +19,7 @@
             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                 <div class="card-body">
                     <img src="https://jiuuni.uz/uploads/1669369359-logo.png">
-                    <form method="POST" action="{{ route('voucher.store') }}" class="form-validate"
+                    <form method="POST" action="{{ route('get-voucher.store') }}" class="form-validate"
                         novalidate="novalidate" method="post" enctype="multipart/form-data">
                         @csrf
                         <div class="form-control">

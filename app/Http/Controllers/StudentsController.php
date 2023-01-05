@@ -8,11 +8,6 @@ use App\Models\Student;
 
 class StudentsController extends Controller
 {
-    public function __construct()
-    {
-        // Middleware for authentication.
-        $this->middleware('auth');
-    }
 
     public function index()
     {
