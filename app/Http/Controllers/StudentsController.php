@@ -16,7 +16,7 @@ class StudentsController extends Controller
 
     public function index()
     {
-        return redirect('/dashboard/students/create');
+        return redirect('/dashboard/voucher/create');
     }
 
     /**
@@ -50,7 +50,7 @@ class StudentsController extends Controller
 
     public function create()
     {
-        return view('dashboard.students.create');
+        return view('dashboard.voucher.create');
     }
 
     public function store(Request $request)
@@ -75,7 +75,7 @@ class StudentsController extends Controller
             return response()->file($outputFilePath);
         } catch (\Exception $e) {
             return $e;
-            return redirect()->route('dashboard.students.index')->with('error', 'Error creating page ');
+            return redirect()->route('dashboard.voucher.index')->with('error', 'Error creating page ');
         }
     }
 }
