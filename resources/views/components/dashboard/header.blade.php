@@ -56,6 +56,13 @@
                                         </a>
                                     </li><!-- .nk-menu-item -->
                                 @endif
+                                @if (Auth::user()->role == 'voucher')
+                                    <li class="nk-menu-item has-sub">
+                                        <a href="{{ route('dashboard.voucher.create') }}" class="nk-menu-link">
+                                            <span class="nk-menu-text">Voucher</span>
+                                        </a>
+                                    </li><!-- .nk-menu-item -->
+                                @endif
                             </ul><!-- .nk-menu -->
                         </div><!-- .nk-header-menu -->
                         <div class="nk-header-tools">
