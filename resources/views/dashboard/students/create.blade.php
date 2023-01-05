@@ -18,7 +18,10 @@
         <div class="hero-content flex-col lg:flex-row-reverse">
             <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
                 <div class="card-body">
-                    <img src="https://jiuuni.uz/uploads/1669369359-logo.png">
+                    <picture>
+                        <source srcset="https://jiuuni.uz/uploads/1669369359-footer.png" media="(prefers-color-scheme: dark)">
+                        <img src="https://jiuuni.uz/uploads/1669369359-logo.png">
+                    </picture>
                     <form method="POST" action="{{ route('get-voucher.store') }}" class="form-validate"
                         novalidate="novalidate" method="post" enctype="multipart/form-data">
                         @csrf
